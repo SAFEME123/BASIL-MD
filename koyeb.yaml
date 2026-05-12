@@ -1,0 +1,105 @@
+deploymentname: basil-md
+
+services:
+  - name: web
+    type: web
+    git:
+      branch: main
+    docker:
+      dockerfile: Dockerfile
+      target: ""
+    instance_types:
+      - type: nano
+    regions:
+      - was
+    ports:
+      - port: 3028
+        protocol: http
+    routes:
+      - path: /
+        port: 3028
+    health_checks:
+      - grace_period: 30
+        interval: 60
+        restart_limit: 3
+        path: /health
+        port: 3028
+        protocol: http
+        timeout: 10
+    env:
+      - key: SESSION_ID
+        value: ""
+        scopes:
+          - region:was
+      - key: OWNER_NUMBER
+        value: ""
+        scopes:
+          - region:was
+      - key: PREFIX
+        value: "."
+        scopes:
+          - region:was
+      - key: MODE
+        value: public
+        scopes:
+          - region:was
+      - key: TIME_ZONE
+        value: ""  # Optional — bot auto-detects server timezone. Set to override e.g. Africa/Harare
+        scopes:
+          - region:was
+      - key: AUTO_READ_STATUS
+        value: "false"
+        scopes:
+          - region:was
+      - key: AUTO_STATUS_LIKE
+        value: "off"
+        scopes:
+          - region:was
+      - key: AUTO_REACT
+        value: "false"
+        scopes:
+          - region:was
+      - key: WELCOME
+        value: "true"
+        scopes:
+          - region:was
+      - key: GOODBYE
+        value: "true"
+        scopes:
+          - region:was
+      - key: ANTI_LINK
+        value: "false"
+        scopes:
+          - region:was
+      - key: ANTI_CALL
+        value: "false"
+        scopes:
+          - region:was
+      - key: ANTI_TAG
+        value: "false"
+        scopes:
+          - region:was
+      - key: DATABASE_URL
+        value: ""
+        scopes:
+          - region:was
+
+# ─────────────────────────────────────────────────────────────
+# SETUP INSTRUCTIONS (Koyeb)
+# ─────────────────────────────────────────────────────────────
+# REQUIRED:
+#   SESSION_ID    → Your Gifted~ pairing session ID
+#   OWNER_NUMBER  → Your WhatsApp number with country code (e.g. 2348012345678)
+#
+# DATABASE (optional — SQLite is used if not set):
+#   → Neon.tech    : https://neon.tech          (free tier, generous)
+#   → Supabase     : https://supabase.com       (free tier)
+#   → Aiven        : https://aiven.io           (free trial)
+#   Set DATABASE_URL to your PostgreSQL connection string.
+#
+# DEPLOY via Koyeb CLI:
+#   koyeb app init basil-md --config koyeb.yaml
+#
+# Or via Koyeb Dashboard:
+#   "Create App" → "GitHub" → pick repo → set env vars → Deploy
+# ─────────────────────────────────────────────────────────────
