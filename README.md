@@ -6,6 +6,12 @@
 [![License](https://img.shields.io/github/license/SAFEME123/BASIL-MD)](LICENSE)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D20-brightgreen)](https://nodejs.org)
 
+<p align="center">
+  <a href="https://basil-pair.onrender.com">
+    <img src="https://img.shields.io/badge/PAIR%20BASIL--MD-GET%20SESSION%20ID-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="PAIR BASIL-MD" />
+  </a>
+</p>
+
 > ⚠️ **Notice:** The original repository ([BOTMASTER350/BASIL-MD](https://github.com/BOTMASTER350/BASIL-MD)) is currently unavailable due to a GitHub account issue.
 > This repository ([SAFEME123/BASIL-MD](https://github.com/SAFEME123/BASIL-MD)) is the **official active mirror** and will receive all updates while the original account is being restored.
 > Please use this repo and star it to stay up to date.
