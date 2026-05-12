@@ -15,7 +15,12 @@ RUN apk add --no-cache \
     ffmpeg \
     imagemagick \
     libwebp-tools \
-    curl
+    curl \
+    cairo-dev \
+    pango-dev \
+    libjpeg-turbo-dev \
+    giflib-dev \
+    pixman-dev
 
 # Copy package files
 COPY package*.json ./
