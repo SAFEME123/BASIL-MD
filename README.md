@@ -205,14 +205,14 @@ By default BASIL-MD connects to a **private AI API** that powers the chatbot out
     <td align="center">
       <a href="https://github.com/SAFEME123">
         <img src="https://github.com/SAFEME123.png" width="80" style="border-radius:50%" /><br/>
-        <sub><b>SAFEME123</b></sub>
+        <sub><b>STRIKERBOY</b></sub>
       </a><br/>
       <sub>Lead Developer · Maintainer</sub>
     </td>
     <td align="center">
       <a href="https://github.com/omoba-tife">
         <img src="https://github.com/omoba-tife.png" width="80" style="border-radius:50%" /><br/>
-        <sub><b>omoba-tife</b></sub>
+        <sub><b>TIFE</b></sub>
       </a><br/>
       <sub>Contributor · Feature Development</sub>
     </td>
