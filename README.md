@@ -172,6 +172,59 @@ See [`config.env.example`](config.env.example) for the full list.
 
 ---
 
+## 🤖 Custom AI Endpoint
+
+BASIL-MD uses `https://api-basil.koyeb.app/v1` as its default AI backend (OpenAI-compatible). You can point it to **any OpenAI-compatible API** — OpenAI, Together AI, OpenRouter, your own self-hosted model, etc.
+
+```bash
+# Via .set command (no restart needed)
+.set AI_ENDPOINT https://api.openai.com/v1
+.set AI_API_KEY  sk-xxxxxxxxxxxxxxxx
+.set AI_MODEL    gpt-4o
+```
+
+| Setting | What it does |
+|:---|:---|
+| `AI_ENDPOINT` | Base URL of any OpenAI-compatible API |
+| `AI_API_KEY` | Bearer token sent as `Authorization: Bearer <key>` |
+| `AI_MODEL` | Default model to request (e.g. `gpt-4o`, `mistral-7b`) |
+
+> Changes via `.set` take effect **immediately** — no restart required.
+> The bot falls back through Pollinations → g4f → Venice → Groq if your endpoint fails.
+
+**Compatible providers:** OpenAI · Together AI · OpenRouter · Groq · Mistral · Anyscale · Fireworks AI · any `v1/chat/completions`-compatible server
+
+---
+
+## 👥 Credits
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/SAFEME123">
+        <img src="https://github.com/SAFEME123.png" width="80" style="border-radius:50%" /><br/>
+        <sub><b>SAFEME123</b></sub>
+      </a><br/>
+      <sub>Lead Developer · Maintainer</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/omoba-tife">
+        <img src="https://github.com/omoba-tife.png" width="80" style="border-radius:50%" /><br/>
+        <sub><b>omoba-tife</b></sub>
+      </a><br/>
+      <sub>Contributor · Feature Development</sub>
+    </td>
+  </tr>
+</table>
+
+[![Contributors](https://img.shields.io/github/contributors/SAFEME123/BASIL-MD?style=for-the-badge&color=0969da&labelColor=0d1117)](https://github.com/SAFEME123/BASIL-MD/graphs/contributors)
+
+</div>
+
+---
+
 <div align="center">
 
 ![Star History](https://api.star-history.com/svg?repos=SAFEME123/BASIL-MD&type=Date)
