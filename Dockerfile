@@ -20,7 +20,7 @@ RUN apk add --no-cache \
 COPY package*.json ./
 
 # Install dependencies
-RUN npm ci --only=production --no-audit --no-fund
+RUN npm install --omit=dev --no-audit --no-fund --legacy-peer-deps
 
 # Copy only the public entry point — the encrypted bundle downloads the rest
 COPY start.js ./
