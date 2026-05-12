@@ -3,7 +3,7 @@ services:
     name: basil-md
     env: docker
     dockerfilePath: ./Dockerfile
-    plan: starter
+    plan: free
     healthCheckPath: /health
     envVars:
       - key: SESSION_ID
