@@ -13,7 +13,7 @@ RUN apk add --no-cache \
     sqlite-dev \
     ffmpeg \
     imagemagick \
-    webp-tools \
+    libwebp-tools \
     curl
 
 # Copy package files
