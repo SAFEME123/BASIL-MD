@@ -174,7 +174,7 @@ See [`config.env.example`](config.env.example) for the full list.
 
 ## 🤖 Custom AI Endpoint
 
-BASIL-MD uses `https://api-basil.koyeb.app/v1` as its default AI backend (OpenAI-compatible). You can point it to **any OpenAI-compatible API** — OpenAI, Together AI, OpenRouter, your own self-hosted model, etc.
+By default BASIL-MD connects to a **private AI API** that powers the chatbot out of the box — no configuration needed. For heavier usage or specific models, you can plug in your own OpenAI-compatible endpoint.
 
 ```bash
 # Via .set command (no restart needed)
@@ -190,7 +190,7 @@ BASIL-MD uses `https://api-basil.koyeb.app/v1` as its default AI backend (OpenAI
 | `AI_MODEL` | Default model to request (e.g. `gpt-4o`, `mistral-7b`) |
 
 > Changes via `.set` take effect **immediately** — no restart required.
-> The bot falls back through Pollinations → g4f → Venice → Groq if your endpoint fails.
+> The bot falls back through multiple free providers if your endpoint is unavailable.
 
 **Compatible providers:** OpenAI · Together AI · OpenRouter · Groq · Mistral · Anyscale · Fireworks AI · any `v1/chat/completions`-compatible server
 
