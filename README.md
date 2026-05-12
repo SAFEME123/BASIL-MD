@@ -8,7 +8,7 @@
 
 [![Stars](https://img.shields.io/github/stars/SAFEME123/BASIL-MD?style=for-the-badge&logo=github&color=FFD700&labelColor=0d1117)](https://github.com/SAFEME123/BASIL-MD/stargazers)
 [![Forks](https://img.shields.io/github/forks/SAFEME123/BASIL-MD?style=for-the-badge&logo=git&color=0969da&labelColor=0d1117)](https://github.com/SAFEME123/BASIL-MD/network/members)
-[![License](https://img.shields.io/github/license/SAFEME123/BASIL-MD?style=for-the-badge&color=8957e5&labelColor=0d1117)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-8957e5?style=for-the-badge&labelColor=0d1117)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D20-43853d?style=for-the-badge&logo=nodedotjs&labelColor=0d1117)](https://nodejs.org)
 [![WhatsApp](https://img.shields.io/badge/Baileys-Powered-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=0d1117)](https://github.com/WhiskeySockets/Baileys)
 
@@ -224,6 +224,40 @@ By default BASIL-MD connects to a **private AI API** that powers the chatbot out
 </table>
 
 [![Contributors](https://img.shields.io/github/contributors/SAFEME123/BASIL-MD?style=for-the-badge&color=0969da&labelColor=0d1117)](https://github.com/SAFEME123/BASIL-MD/graphs/contributors)
+
+</div>
+
+---
+
+## ⚠️ Disclaimer
+
+<div align="center">
+
+<table>
+  <tr>
+    <td>
+
+> **BASIL-MD is an independent open-source project and is NOT affiliated with, endorsed by, or associated with WhatsApp LLC or Meta Platforms, Inc.** WhatsApp is a registered trademark of WhatsApp LLC.
+>
+> ### 🚫 Account Ban Risk
+> Using unofficial WhatsApp bots **violates WhatsApp's Terms of Service** and may result in your WhatsApp account being **temporarily or permanently banned**.
+> **You use this software entirely at your own risk.** The developers and contributors accept no liability for any account suspensions, bans, data loss, or any other consequences arising from the use of this bot.
+>
+> ### 🛡️ Recommended Settings to Reduce Ban Risk
+> To lower the chance of your account being flagged, it is **strongly advised** to keep the following settings **disabled**:
+>
+> | Setting | Recommended Value | Why |
+> |:---|:---:|:---|
+> | `AUTO_READ_STATUS` | `false` | Mass status reading triggers automated-behaviour flags |
+> | `AUTO_STATUS_LIKE` | `off` | Bulk liking statuses is a known ban trigger |
+> | `AUTO_REACT` | `false` | High-frequency reactions can appear bot-like to WhatsApp |
+> | `AUTO_READ_MSG` | `false` | Auto-reading all messages may flag unusual read patterns |
+>
+> ℹ️ These features are opt-in and **off by default**. Do not enable them unless you understand the associated risk.
+
+    </td>
+  </tr>
+</table>
 
 </div>
 
