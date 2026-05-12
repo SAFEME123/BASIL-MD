@@ -6,6 +6,7 @@ WORKDIR /app
 
 # Install system dependencies for native modules
 RUN apk add --no-cache \
+    git \
     python3 \
     make \
     g++ \
