@@ -1,70 +1,117 @@
-# BASIL-MD
+<div align="center">
 
-> A powerful, feature-rich WhatsApp Bot built with Node.js & Baileys
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=BASIL-MD&fontSize=90&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=The%20Most%20Powerful%20WhatsApp%20Bot&descAlignY=58&descSize=20&descColor=cccccc" width="100%" />
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/SAFEME123/BASIL-MD?style=social)](https://github.com/SAFEME123/BASIL-MD/stargazers)
-[![License](https://img.shields.io/github/license/SAFEME123/BASIL-MD)](LICENSE)
-[![Node.js](https://img.shields.io/badge/node-%3E%3D20-brightgreen)](https://nodejs.org)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=25D366&center=true&vCenter=true&random=false&width=600&lines=⚡+Feature-Rich+WhatsApp+Bot;🤖+AI+%7C+Media+%7C+Groups+%7C+Owner+Tools;🌍+Always+Online+%7C+Always+Updated;🔥+Built+with+Node.js+%26+Baileys)](https://git.io/typing-svg)
 
-<p align="center">
-  <a href="https://basil-pair.onrender.com">
-    <img src="https://img.shields.io/badge/PAIR%20BASIL--MD-GET%20SESSION%20ID-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="PAIR BASIL-MD" />
-  </a>
-</p>
+<br/>
 
-> ⚠️ **Notice:** The original repository ([BOTMASTER350/BASIL-MD](https://github.com/BOTMASTER350/BASIL-MD)) is currently unavailable due to a GitHub account issue.
-> This repository ([SAFEME123/BASIL-MD](https://github.com/SAFEME123/BASIL-MD)) is the **official active mirror** and will receive all updates while the original account is being restored.
-> Please use this repo and star it to stay up to date.
+[![Stars](https://img.shields.io/github/stars/SAFEME123/BASIL-MD?style=for-the-badge&logo=github&color=FFD700&labelColor=0d1117)](https://github.com/SAFEME123/BASIL-MD/stargazers)
+[![Forks](https://img.shields.io/github/forks/SAFEME123/BASIL-MD?style=for-the-badge&logo=git&color=0969da&labelColor=0d1117)](https://github.com/SAFEME123/BASIL-MD/network/members)
+[![License](https://img.shields.io/github/license/SAFEME123/BASIL-MD?style=for-the-badge&color=8957e5&labelColor=0d1117)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-%3E%3D20-43853d?style=for-the-badge&logo=nodedotjs&labelColor=0d1117)](https://nodejs.org)
+[![WhatsApp](https://img.shields.io/badge/Baileys-Powered-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=0d1117)](https://github.com/WhiskeySockets/Baileys)
 
-![Star History Chart](https://api.star-history.com/svg?repos=SAFEME123/BASIL-MD&type=Date)
+</div>
+
+---
+
+<div align="center">
+
+> ⚠️ **Notice:** The original account **BOTMASTER350/BASIL-MD** is currently unavailable due to a GitHub account issue.
+> **[SAFEME123/BASIL-MD](https://github.com/SAFEME123/BASIL-MD)** is the **official active mirror** receiving all updates.
+
+</div>
 
 ---
 
 ## ✨ Features
 
-| Category | Commands |
-|---|---|
-| 🎬 **Downloaders** | TikTok, Instagram, Facebook, YouTube, Spotify, SoundCloud, Threads, Pinterest, CapCut, Likee, Twitter/X |
-| 🎥 **Movies** | Search & download movies via `.movie`, browse latest via `.latest` |
-| 🤖 **AI** | ChatGPT, image generation (DALL-E, Flux, Stable Diffusion), image upscale, remove background |
-| 🛠️ **Tools** | Weather, OCR, QR code, currency converter, Wikipedia, dictionary, translator, IMDB |
-| 🎮 **Fun** | Magic 8-ball, love calculator, truth or dare, roast generator, horoscope, morse code |
-| 👥 **Group** | Welcome/goodbye, anti-link, anti-tag, anti-call, anti-demote, anti-bot, polls, warn system |
-| ⚙️ **Owner** | Remote settings (`.set`), broadcast, block/unblock, ban, sudo management |
-| 🔧 **Extras** | Sticker maker, fancy text, password generator, UUID/hash, countdown timer, screenshot |
+<div align="center">
+
+| Category | Highlights |
+|:---:|:---|
+| 🎬 **Downloaders** | TikTok · Instagram · Facebook · YouTube · Spotify · SoundCloud · Threads · Pinterest · CapCut · Twitter/X |
+| 🎥 **Movies** | Search & download via `.movie` · Browse latest via `.latest` · Multi-source fallback |
+| 🤖 **AI** | ChatGPT · DALL-E · Flux · Stable Diffusion · Image Upscale · Remove Background |
+| 🛠️ **Tools** | Weather · OCR · QR Code · Currency · Wikipedia · Dictionary · Translator · IMDB |
+| 🎮 **Fun** | Magic 8-ball · Love Calculator · Truth or Dare · Roast Generator · Horoscope |
+| 👥 **Group** | Welcome/Goodbye · Anti-Link · Anti-Tag · Anti-Call · Anti-Demote · Anti-Bot · Polls · Warn |
+| ⚙️ **Owner** | Remote Settings (`.set`) · Broadcast · Block/Unblock · Ban System · Sudo |
+| 🔧 **Extras** | Sticker Maker · Fancy Text · Password Gen · UUID/Hash · Screenshot · Countdown |
+
+</div>
 
 ---
 
-## 🚀 Quick Start (Local / VPS)
+## 🔑 Get Your Session ID
+
+<div align="center">
+
+**Connect your WhatsApp number to the bot in seconds**
+
+<br/>
+
+<a href="https://basil-pair.onrender.com">
+  <img src="https://img.shields.io/badge/⚡%20PAIR%20BASIL--MD-GET%20SESSION%20ID%20NOW-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=128C7E" height="45" alt="Pair BASIL-MD" />
+</a>
+&nbsp;&nbsp;
+<a href="https://basil-pair.onrender.com">
+  <img src="https://img.shields.io/badge/🔗%20OPEN%20PAIRING%20PAGE-basil--pair.onrender.com-0969da?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0d1117" height="45" alt="Pairing Page" />
+</a>
+
+<br/><br/>
+
+> 1️⃣ Click the button above &nbsp;·&nbsp; 2️⃣ Enter your WhatsApp number &nbsp;·&nbsp; 3️⃣ Copy your `SESSION_ID` &nbsp;·&nbsp; 4️⃣ Paste it in your config
+
+</div>
+
+---
+
+## 🚀 Quick Start
 
 ```bash
 git clone https://github.com/SAFEME123/BASIL-MD.git
 cd BASIL-MD
 npm install
 cp config.env.example config.env
-# Edit config.env — set SESSION_ID and OWNER_NUMBER at minimum
+# Set SESSION_ID and OWNER_NUMBER in config.env
 node index.js
 ```
 
-**Requirements:** Node.js 20+, FFmpeg (for media), optional PostgreSQL
+> **Requirements:** Node.js ≥ 20 · FFmpeg (for media) · PostgreSQL (optional)
 
 ---
 
 ## 🌐 Deploy
 
+<div align="center">
+
+### Choose your platform
+
+<br/>
+
+<a href="https://railway.app/new/template?template=https://github.com/SAFEME123/BASIL-MD">
+  <img src="https://img.shields.io/badge/🚂%20DEPLOY%20ON%20RAILWAY-Deploy%20Now-7B2FBE?style=for-the-badge&logo=railway&logoColor=white&labelColor=0d1117" height="40" alt="Deploy on Railway" />
+</a>
+&nbsp;
+<a href="https://heroku.com/deploy?template=https://github.com/SAFEME123/BASIL-MD">
+  <img src="https://img.shields.io/badge/🟣%20DEPLOY%20ON%20HEROKU-Deploy%20Now-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=0d1117" height="40" alt="Deploy to Heroku" />
+</a>
+&nbsp;
+<a href="https://render.com">
+  <img src="https://img.shields.io/badge/🖥️%20DEPLOY%20ON%20RENDER-Deploy%20Now-46E3B7?style=for-the-badge&logo=render&logoColor=white&labelColor=0d1117" height="40" alt="Deploy on Render" />
+</a>
+
+</div>
+
+<br/>
+
 ### ☁️ Koyeb *(recommended — always-on free tier)*
 ```bash
 koyeb app init basil-md --config koyeb.yaml
 ```
-Set `SESSION_ID` and `OWNER_NUMBER` in the Koyeb dashboard environment variables.
-
-### 🚂 Railway
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/SAFEME123/BASIL-MD)
-
-### 🟣 Heroku
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SAFEME123/BASIL-MD)
-
-> **Note:** Heroku free dynos are discontinued. Use the **eco** plan (~$5/mo) or choose Koyeb/Railway instead.
+Set `SESSION_ID` and `OWNER_NUMBER` in the Koyeb dashboard.
 
 ### 🐳 Docker
 ```bash
@@ -76,28 +123,21 @@ docker run -d \
   basil-md
 ```
 
-### �️ Render
-Import this repo on [render.com](https://render.com) — `render.yaml` is auto-detected.
-
----
-
-## 🔑 Session ID
-
-Get your session ID (pairing code) from the bot's pairing page, then set it as `SESSION_ID` in your environment.
-
 ---
 
 ## ⚙️ Environment Variables
 
+<div align="center">
+
 | Variable | Required | Default | Description |
-|---|---|---|---|
+|:---|:---:|:---:|:---|
 | `SESSION_ID` | ✅ | — | WhatsApp pairing session |
-| `OWNER_NUMBER` | ✅ | — | Your number (country code, no +) |
+| `OWNER_NUMBER` | ✅ | — | Your number (country code, no `+`) |
 | `PREFIX` | ❌ | `.` | Command prefix |
 | `MODE` | ❌ | `public` | `public` / `groups` / `private` / `inbox` |
-| `TIME_ZONE` | ❌ | auto-detect | e.g. `Africa/Harare` |
-| `DATABASE_URL` | ❌ | SQLite | PostgreSQL URI (Neon/Supabase) |
-| `CHATBOT_MODE` | ❌ | `false` | Enable AI chatbot replies |
+| `TIME_ZONE` | ❌ | auto | e.g. `Africa/Harare` |
+| `DATABASE_URL` | ❌ | SQLite | PostgreSQL URI (Neon / Supabase) |
+| `CHATBOT_MODE` | ❌ | `false` | `all` / `dm` / `groups` / `me` / `false` |
 | `AI_ENDPOINT` | ❌ | — | Custom OpenAI-compatible API URL |
 | `AUTO_READ_STATUS` | ❌ | `false` | Auto-view statuses |
 | `AUTO_STATUS_LIKE` | ❌ | `off` | Auto-like statuses |
@@ -105,21 +145,25 @@ Get your session ID (pairing code) from the bot's pairing page, then set it as `
 | `ANTI_LINK` | ❌ | `false` | Delete links from non-admins |
 | `ANTI_CALL` | ❌ | `false` | Reject incoming calls |
 
+</div>
+
 See [`config.env.example`](config.env.example) for the full list.
 
 ---
 
 ## 🗄️ Database
 
-- **PostgreSQL** (recommended for production) — set `DATABASE_URL` to a [Neon](https://neon.tech) or [Supabase](https://supabase.com) URI. Both have free tiers.
-- **SQLite** (default) — works out of the box locally. Data is lost on container/dyno restarts.
+| Option | When to use |
+|:---|:---|
+| **PostgreSQL** *(Neon / Supabase — free tier)* | Production — persistent, multi-instance |
+| **SQLite** *(default, zero config)* | Local dev — data lost on container restart |
 
 ---
 
 ## 🛠️ Dev Scripts
 
-| Script | Purpose |
-|---|---|
+| Command | Purpose |
+|:---|:---|
 | `node index.js` | Start the bot |
 | `npm run verify` | Syntax-check entry points |
 | `npm run lint` | Run ESLint |
@@ -128,10 +172,14 @@ See [`config.env.example`](config.env.example) for the full list.
 
 ---
 
-## 📝 License
+<div align="center">
 
-MIT — see [LICENSE](LICENSE) for details.
+![Star History](https://api.star-history.com/svg?repos=SAFEME123/BASIL-MD&type=Date)
 
-## 🤝 Contributing
+[![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&labelColor=0d1117)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/SAFEME123/BASIL-MD/pulls)
+[![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge&labelColor=0d1117)](https://github.com/SAFEME123/BASIL-MD)
 
-Pull requests are welcome! Please run `npm run lint` before submitting.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%" />
+
+</div>
