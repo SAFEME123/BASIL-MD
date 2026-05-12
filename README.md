@@ -12,6 +12,10 @@
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D20-43853d?style=for-the-badge&logo=nodedotjs&labelColor=0d1117)](https://nodejs.org)
 [![WhatsApp](https://img.shields.io/badge/Baileys-Powered-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=0d1117)](https://github.com/WhiskeySockets/Baileys)
 
+<br/>
+
+[![⭐ Star this repo](https://img.shields.io/badge/⭐%20Star%20this%20Repo-FFD700?style=for-the-badge&logo=github&logoColor=black)](https://github.com/SAFEME123/BASIL-MD/stargazers)
+
 </div>
 
 ---
@@ -205,14 +209,14 @@ By default BASIL-MD connects to a **private AI API** that powers the chatbot out
     <td align="center">
       <a href="https://github.com/SAFEME123">
         <img src="https://github.com/SAFEME123.png" width="80" style="border-radius:50%" /><br/>
-        <sub><b>STRIKERBOY</b></sub>
+        <sub><b>SAFEME123</b></sub>
       </a><br/>
       <sub>Lead Developer · Maintainer</sub>
     </td>
     <td align="center">
       <a href="https://github.com/omoba-tife">
         <img src="https://github.com/omoba-tife.png" width="80" style="border-radius:50%" /><br/>
-        <sub><b>TIFE</b></sub>
+        <sub><b>omoba-tife</b></sub>
       </a><br/>
       <sub>Contributor · Feature Development</sub>
     </td>
