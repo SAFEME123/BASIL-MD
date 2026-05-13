@@ -20,7 +20,11 @@ RUN apk add --no-cache \
     pango-dev \
     libjpeg-turbo-dev \
     giflib-dev \
-    pixman-dev
+    pixman-dev \
+    freetype-dev \
+    harfbuzz-dev \
+    fribidi-dev \
+    fontconfig-dev
 
 # Copy package files
 COPY package*.json ./
