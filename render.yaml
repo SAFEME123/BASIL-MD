@@ -1,0 +1,49 @@
+services:
+  - type: web
+    name: basil-md
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: SESSION_ID
+        value: ""
+      - key: OWNER_NUMBER
+        value: ""
+      - key: PREFIX
+        value: "."
+      - key: MODE
+        value: public
+      - key: TIME_ZONE
+        value: ""  # Optional — bot auto-detects server timezone. Set to override e.g. Africa/Harare
+      - key: AUTO_READ_STATUS
+        value: "false"
+      - key: AUTO_STATUS_LIKE
+        value: "off"
+      - key: WELCOME
+        value: "true"
+      - key: GOODBYE
+        value: "true"
+      - key: ANTI_LINK
+        value: "false"
+      - key: ANTI_CALL
+        value: "false"
+      - key: ANTI_TAG
+        value: "false"
+      - key: DATABASE_URL
+        value: ""
+
+# ─────────────────────────────────────────────────────────────
+# SETUP INSTRUCTIONS (Render)
+# ─────────────────────────────────────────────────────────────
+# 1. Push this repo to GitHub.
+# 2. Go to https://render.com → New → Web Service → Connect repo.
+# 3. Render auto-detects render.yaml — click "Apply".
+# 4. Set SESSION_ID and OWNER_NUMBER in the Render dashboard
+#    under Environment → Environment Variables.
+# 5. (Optional) Set DATABASE_URL to a free PostgreSQL URI:
+#      → Neon.tech : https://neon.tech  (free tier, recommended)
+#    Without it, the bot uses SQLite (data lost on redeploy).
+# NOTE: Render free tier for web services has been discontinued.
+#       Use "starter" ($7/mo) or deploy on Koyeb/Railway instead.
+# ─────────────────────────────────────────────────────────────

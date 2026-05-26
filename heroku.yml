@@ -1,0 +1,36 @@
+build:
+  docker:
+    web: Dockerfile
+
+run:
+  web: node index.js
+
+# ─────────────────────────────────────────────────────────────
+# SETUP INSTRUCTIONS (Heroku)
+# ─────────────────────────────────────────────────────────────
+# 1. Install the Heroku CLI and log in:
+#      heroku login
+#
+# 2. Create the app and set the stack to container:
+#      heroku create basil-md
+#      heroku stack:set container -a basil-md
+#
+# 3. Set required environment variables:
+#      heroku config:set SESSION_ID="your-session-id" -a basil-md
+#      heroku config:set OWNER_NUMBER="2348012345678" -a basil-md
+#      heroku config:set PREFIX="." -a basil-md
+#      heroku config:set MODE="public" -a basil-md
+#      heroku config:set TIME_ZONE="Africa/Harare" -a basil-md  # Optional — bot auto-detects server timezone
+#
+# 4. (Optional) Add a free external PostgreSQL database:
+#      → Neon.tech  : https://neon.tech   (free, recommended)
+#      → Supabase   : https://supabase.com
+#      Then: heroku config:set DATABASE_URL="postgresql://..." -a basil-md
+#      (Without DATABASE_URL the bot uses SQLite — data resets on dyno restart)
+#
+# 5. Push and deploy:
+#      git push heroku main
+#
+# NOTE: heroku-postgresql add-on plans are no longer free.
+#       Use an external provider (Neon/Supabase) and set DATABASE_URL manually.
+# ─────────────────────────────────────────────────────────────

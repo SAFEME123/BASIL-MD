@@ -1,0 +1,59 @@
+{
+  "name": "BASIL-MD",
+  "description": "BASIL-MD WhatsApp Bot — feature-rich, built with Node.js and Baileys",
+  "repository": "https://github.com/SAFEME123/BASIL-MD",
+  "logo": "https://files.catbox.moe/alj4ot.jpg",
+  "keywords": ["whatsapp", "bot", "nodejs", "baileys", "postgresql"],
+  "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Your BASIL-MD pairing session ID — get it at https://basil-pair.onrender.com",
+      "required": true
+    },
+    "OWNER_NUMBER": {
+      "description": "Your WhatsApp number with country code, no + (e.g. 2638412345678)",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Bot command prefix",
+      "required": false,
+      "value": "."
+    },
+    "MODE": {
+      "description": "Bot mode: public / groups / private / inbox",
+      "required": false,
+      "value": "public"
+    },
+    "TIME_ZONE": {
+      "description": "Optional — bot auto-detects your server timezone. Set this to override (e.g. Africa/Harare, Africa/Lagos, America/New_York)",
+      "required": false,
+      "value": ""
+    },
+    "AUTO_READ_STATUS": {
+      "description": "Auto-read WhatsApp statuses (true/false)",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_STATUS_LIKE": {
+      "description": "Auto-like statuses (on/off)",
+      "required": false,
+      "value": "off"
+    },
+    "WELCOME": {
+      "description": "Send welcome message when members join groups (true/false)",
+      "required": false,
+      "value": "true"
+    },
+    "DATABASE_URL": {
+      "description": "PostgreSQL URI from Neon.tech or Supabase (optional — SQLite used if blank, but data resets on dyno restart)",
+      "required": false,
+      "value": ""
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}

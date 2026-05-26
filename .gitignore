@@ -1,0 +1,111 @@
+# ===== Dependencies =====
+node_modules/
+.npmtmp/
+.pnpm-store/
+.yarn/
+
+# ===== Environment / Secrets =====
+config.env
+.env
+.env.*
+!config.env.example
+!.env.example
+
+# ===== Legacy backups =====
+# Old plugin copies. Safe to delete from disk; ignore from git.
+plugins/backups/
+*.bak
+*.backup.js
+
+# ===== Runtime / Data =====
+# WhatsApp auth & state — NEVER commit
+session
+# Smoke-test artefacts
+.smoke-compat-ok
+smoke-run.log
+auth_info/
+auth_info_baileys/
+
+# SQLite databases (runtime data)
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.sqlite
+data/*.sqlite-wal
+data/*.sqlite-shm
+
+# In-memory store snapshots
+store.json
+*.store.json
+
+# Temp / downloads
+temp/
+tmp/
+downloads/
+
+# Runtime plugin availability / unavailable lists
+data/unavailable-plugins.json
+
+# ===== Logs =====
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pm2.log
+*.pid
+
+# ===== Editor / OS =====
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*~
+
+# Keep .vscode/ minimal (share launch configs if desired, ignore user state)
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ===== Build / Coverage =====
+dist/
+build/
+coverage/
+.nyc_output/
+
+# ===== Secrets & Encrypted Vaults =====
+# Plaintext secrets — NEVER commit
+secrets/secrets.json
+secrets/master.key
+# Encrypted vault blobs — pre-baked on owner's server, not shipped in repo
+assets/api_secrets.enc
+assets/central_db.enc
+# Entire secrets folder hidden from users
+secrets/
+# Encryption/decryption CLI scripts — removed before public release
+scripts/encrypt-secrets.mjs
+scripts/decrypt-secrets.mjs
+
+# ===== Crypto Vault Key Parts =====
+# Generated on first run from lib/vault/creators.enc bootstrap.
+# NEVER commit — losing them means re-initialising the vault.
+# creators.enc IS committed (holds BOOTSTRAP: plaintext fallback).
+lib/vault/k*.key
+
+# ===== Bundle Loader =====
+# Marker written after bundle extraction — not for git
+.bundle-ready
+# Local encrypted bundle output (upload to GitHub Releases instead)
+dist/basil-bundle.enc
+# Pack script — private, run locally only
+scripts/pack.mjs
+# AES bundle key — NEVER commit
+.release-key
+# Obfuscated release outputs (dist to GitHub Releases/Gist, not committed)
+dist/start.js
+dist/loader.js
+
+# ===== Misc =====
+*.tgz
+.local/
