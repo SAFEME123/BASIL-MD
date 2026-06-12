@@ -56,12 +56,12 @@
 
 <br/>
 
-<a href="https://basil-pair.onrender.com">
+<a href="https://session.basilmd.app">
   <img src="https://img.shields.io/badge/⚡%20PAIR%20BASIL--MD-GET%20SESSION%20ID%20NOW-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=128C7E" height="45" alt="Pair BASIL-MD" />
 </a>
 &nbsp;&nbsp;
-<a href="https://basil-pair.onrender.com">
-  <img src="https://img.shields.io/badge/🔗%20OPEN%20PAIRING%20PAGE-basil--pair.onrender.com-0969da?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0d1117" height="45" alt="Pairing Page" />
+<a href="https://session.basilmd.app">
+  <img src="https://img.shields.io/badge/🔗%20OPEN%20PAIRING%20PAGE-session.basilmd.app-0969da?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0d1117" height="45" alt="Pairing Page" />
 </a>
 
 <br/><br/>
