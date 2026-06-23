@@ -1,6 +1,6 @@
 {
   "name": "BASIL-MD",
-  "version": "2.1.0",
+  "version": "2.5.1",
   "description": "A WhatsApp bot created by STRIKERBOY and Tife",
   "type": "module",
   "main": "start.js",
