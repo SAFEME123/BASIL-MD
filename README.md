@@ -37,7 +37,7 @@
 |:---:|:---|
 | 🎬 **Downloaders** | TikTok · Instagram · Facebook · YouTube · Spotify · SoundCloud · Threads · Pinterest · CapCut · Twitter/X |
 | 🎥 **Movies** | Search & download via `.movie` · Browse latest via `.latest` · Multi-source fallback |
-| 🤖 **AI** | ChatGPT · DALL-E · Flux · Stable Diffusion · Image Upscale · Remove Background |
+| 🤖 **AI** | **Group Catch-up (.tldr)** · ChatGPT · DALL-E · Flux · Stable Diffusion |
 | 🛠️ **Tools** | Weather · OCR · QR Code · Currency · Wikipedia · Dictionary · Translator · IMDB |
 | 🎮 **Fun** | Magic 8-ball · Love Calculator · Truth or Dare · Roast Generator · Horoscope |
 | 👥 **Group** | Welcome/Goodbye · Anti-Link · Anti-Tag · Anti-Call · Anti-Demote · Anti-Bot · Polls · Warn |
@@ -59,11 +59,6 @@
 <a href="https://basil-pair-production.up.railway.app/">
   <img src="https://img.shields.io/badge/⚡%20PAIR%20BASIL--MD-GET%20SESSION%20ID%20NOW-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=128C7E" height="45" alt="Pair BASIL-MD" />
 </a>
-&nbsp;&nbsp;
-<a href="https://basil-pair-production.up.railway.app/">
-  <img src="https://img.shields.io/badge/🔗%20OPEN%20PAIRING%20PAGE-basil--pair--production.up.railway.app-0969da?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0d1117" height="45" alt="Pairing Page" />
-</a>
-
 <br/><br/>
 
 > 1️⃣ Click the button above &nbsp;·&nbsp; 2️⃣ Enter your WhatsApp number &nbsp;·&nbsp; 3️⃣ Copy your `SESSION_ID` &nbsp;·&nbsp; 4️⃣ Paste it in your config
@@ -91,20 +86,20 @@ node index.js
 
 <div align="center">
 
-### Choose your platform
-
-<br/>
-
 <a href="https://railway.app/new/template?template=https://github.com/SAFEME123/BASIL-MD">
-  <img src="https://img.shields.io/badge/🚂%20DEPLOY%20ON%20RAILWAY-Deploy%20Now-7B2FBE?style=for-the-badge&logo=railway&logoColor=white&labelColor=0d1117" height="40" alt="Deploy on Railway" />
+  <img src="https://img.shields.io/badge/🚂%20RAILWAY-Deploy%20Now-7B2FBE?style=for-the-badge&logo=railway&logoColor=white&labelColor=0d1117" height="40" alt="Deploy on Railway" />
 </a>
 &nbsp;
 <a href="https://heroku.com/deploy?template=https://github.com/SAFEME123/BASIL-MD">
-  <img src="https://img.shields.io/badge/🟣%20DEPLOY%20ON%20HEROKU-Deploy%20Now-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=0d1117" height="40" alt="Deploy to Heroku" />
+  <img src="https://img.shields.io/badge/🟣%20HEROKU-Deploy%20Now-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=0d1117" height="40" alt="Deploy to Heroku" />
 </a>
 &nbsp;
 <a href="https://render.com">
-  <img src="https://img.shields.io/badge/🖥️%20DEPLOY%20ON%20RENDER-Deploy%20Now-46E3B7?style=for-the-badge&logo=render&logoColor=white&labelColor=0d1117" height="40" alt="Deploy on Render" />
+  <img src="https://img.shields.io/badge/🖥️%20RENDER-Deploy%20Now-46E3B7?style=for-the-badge&logo=render&logoColor=white&labelColor=0d1117" height="40" alt="Deploy on Render" />
+</a>
+&nbsp;
+<a href="https://app.koyeb.com/deploy?type=git&repository=github.com/SAFEME123/BASIL-MD">
+  <img src="https://img.shields.io/badge/☁️%20KOYEB-Deploy%20Now-04D4A4?style=for-the-badge&logo=linux&logoColor=white&labelColor=0d1117" height="40" alt="Deploy on Koyeb" />
 </a>
 
 </div>
