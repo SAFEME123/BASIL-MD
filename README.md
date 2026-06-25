@@ -2,7 +2,15 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=BASIL-MD&fontSize=90&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=The%20Most%20Powerful%20WhatsApp%20Bot&descAlignY=58&descSize=20&descColor=cccccc" width="100%" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=25D366&center=true&vCenter=true&random=false&width=600&lines=⚡+Feature-Rich+WhatsApp+Bot;🤖+AI+%7C+Media+%7C+Groups+%7C+Owner+Tools;🌍+Always+Online+%7C+Always+Updated;🔥+Built+with+Node.js+%26+Baileys)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=25D366&center=true&vCenter=true&random=false&width=600&lines=⚡+Feature-Rich+WhatsApp+Bot;🤖+AI+%7C+Media+%7C+Groups+%7C+Owner+Tools;🎵+AI+Music+%7C+🎬+AI+Video+%7C+📝+TL%3BDR;🌍+Always+Online+%7C+Always+Updated;🔥+Built+with+Node.js+%26+Baileys)](https://git.io/typing-svg)
+
+<!-- 🟢 Live Bot Console — auto-updates dynamically from the bot's Express server -->
+<a href="https://github.com/SAFEME123/BASIL-MD">
+  <img src="https://basil-pair-production.up.railway.app/status.svg" height="200" alt="Live Bot Console" />
+</a>
+<br/>
+<img src="https://img.shields.io/badge/AI%20Models-15%2B-7B2FBE?style=for-the-badge&logo=openai&logoColor=white&labelColor=0d1117" height="30" alt="AI Models" />
+<img src="https://img.shields.io/badge/Plugins-100%2B-FF6B6B?style=for-the-badge&logo=puzzle-piece&logoColor=white&labelColor=0d1117" height="30" alt="Plugins" />
 
 <br/>
 
@@ -37,7 +45,10 @@
 |:---:|:---|
 | 🎬 **Downloaders** | TikTok · Instagram · Facebook · YouTube · Spotify · SoundCloud · Threads · Pinterest · CapCut · Twitter/X |
 | 🎥 **Movies** | Search & download via `.movie` · Browse latest via `.latest` · Multi-source fallback |
-| 🤖 **AI** | **Group Catch-up (.tldr)** · ChatGPT · DALL-E · Flux · Stable Diffusion |
+| 🤖 **AI Chat** | ChatGPT · Groq · DALL-E · Flux · Stable Diffusion · 15+ model cascade · Vision · OCR |
+| 🎵 **AI Music** | _"Create a song about..."_ → AI composes & sends MP3 · deAPI.ai · Suno · MusicGen · CityFunc |
+| 🎬 **AI Video** | _"Generate a video of..."_ → AI creates video · fal.ai (SVD, WAN 2.5) |
+| 📝 **TL;DR** | _"What did I miss?"_ → AI summarizes last 50 group messages · Natural language trigger |
 | 🛠️ **Tools** | Weather · OCR · QR Code · Currency · Wikipedia · Dictionary · Translator · IMDB |
 | 🎮 **Fun** | Magic 8-ball · Love Calculator · Truth or Dare · Roast Generator · Horoscope |
 | 👥 **Group** | Welcome/Goodbye · Anti-Link · Anti-Tag · Anti-Call · Anti-Demote · Anti-Bot · Polls · Warn |
@@ -138,6 +149,11 @@ docker run -d \
 | `DATABASE_URL` | ❌ | SQLite | PostgreSQL URI (Neon / Supabase) |
 | `CHATBOT_MODE` | ❌ | `false` | `all` / `dm` / `groups` / `me` / `false` |
 | `AI_ENDPOINT` | ❌ | — | Custom OpenAI-compatible API URL |
+| `GROQ_API_KEY` | ❌ | — | [Groq](https://console.groq.com) key for TL;DR summaries |
+| `FAL_AI_KEY` | ❌ | built-in | [fal.ai](https://fal.ai) key for AI video generation |
+| `DEAPI_AI_KEY` | ❌ | — | [deAPI.ai](https://deapi.ai) key for AI music ($5 free) |
+| `APIFRAME_KEY` | ❌ | — | [Apiframe](https://apiframe.pro) key for Suno music |
+| `MUBERT_API_KEY` | ❌ | — | [Mubert](https://mubert.com/render) key for background music |
 | `AUTO_READ_STATUS` | ❌ | `false` | Auto-view statuses |
 | `AUTO_STATUS_LIKE` | ❌ | `off` | Auto-like statuses |
 | `WELCOME` | ❌ | `true` | Group welcome messages |
@@ -148,6 +164,8 @@ docker run -d \
 
 See [`config.env.example`](config.env.example) for the full list.
 
+> **💡 Pro Tip:** While the bot includes some fallback free tiers for AI generation, it is highly recommended to get your own API keys for [Groq](https://console.groq.com), [deAPI](https://deapi.ai), and [Apiframe](https://apiframe.pro) to ensure you don't hit public rate limits!
+
 ---
 
 ## 🗄️ Database
@@ -156,18 +174,6 @@ See [`config.env.example`](config.env.example) for the full list.
 |:---|:---|
 | **PostgreSQL** *(Neon / Supabase — free tier)* | Production — persistent, multi-instance |
 | **SQLite** *(default, zero config)* | Local dev — data lost on container restart |
-
----
-
-## 🛠️ Dev Scripts
-
-| Command | Purpose |
-|:---|:---|
-| `node index.js` | Start the bot |
-| `npm run verify` | Syntax-check entry points |
-| `npm run lint` | Run ESLint |
-| `npm run format` | Run Prettier |
-| `npm run install:lite` | Lean install (no devDeps) |
 
 ---
 
@@ -192,6 +198,26 @@ By default BASIL-MD connects to a **private AI API** that powers the chatbot out
 > The bot falls back through multiple free providers if your endpoint is unavailable.
 
 **Compatible providers:** OpenAI · Together AI · OpenRouter · Groq · Mistral · Anyscale · Fireworks AI · any `v1/chat/completions`-compatible server
+
+---
+
+## 🎵🎬 AI Generative Media
+
+<div align="center">
+
+BASIL-MD is the **first WhatsApp bot** with built-in AI music composition and AI video generation — no commands needed, just talk naturally.
+
+| Feature | How to Trigger | Powered By |
+|:---|:---|:---|
+| 🎵 **AI Music** | _"Create a song about summer vibes"_ | deAPI.ai · Suno · CityFunc · MusicGen |
+| 🎬 **AI Video** | _"Generate a video of a sunset"_ | fal.ai (SVD, WAN 2.5, Fast SVD) |
+| 📝 **TL;DR** | _"What did I miss?"_ or _"recap"_ | Groq (Llama 3.3 70B) |
+| 🖼️ **AI Images** | _"Generate image of a dragon"_ | Flux · DALL-E · Stable Diffusion |
+| 🎤 **AI Voice** | _"Say hello in a voice message"_ | TTS (ttsmp3 · Groq Orpheus) |
+
+> 💡 **No commands required** — the chatbot understands natural language and routes to the right AI automatically.
+
+</div>
 
 ---
 
