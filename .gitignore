@@ -4,6 +4,9 @@ node_modules/
 .pnpm-store/
 .yarn/
 
+# ===== Downloaded at runtime (never commit) =====
+/loader.js
+
 # ===== Environment / Secrets =====
 config.env
 .env

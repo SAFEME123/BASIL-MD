@@ -14,6 +14,25 @@
       "description": "Your WhatsApp number with country code, no + (e.g. 2638412345678)",
       "required": true
     },
+    "LOADER_URL": {
+      "description": "URL to the loader script (required — set to the Gist raw URL provided in setup docs)",
+      "required": true
+    },
+    "BUNDLE_TOKEN": {
+      "description": "GitHub PAT (fine-grained, read-only on BASIL-MD-RELEASES repo) for private asset downloads",
+      "required": false,
+      "value": ""
+    },
+    "BUNDLE_KEY": {
+      "description": "64-char hex AES-256-CBC key for bundle decryption",
+      "required": false,
+      "value": ""
+    },
+    "LOADER_SHA256": {
+      "description": "SHA-256 hash of loader.js for integrity verification (recommended)",
+      "required": false,
+      "value": ""
+    },
     "PREFIX": {
       "description": "Bot command prefix",
       "required": false,
