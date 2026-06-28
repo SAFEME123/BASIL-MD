@@ -18,6 +18,9 @@ run:
 # 3. Set required environment variables:
 #      heroku config:set SESSION_ID="your-session-id" -a basil-md
 #      heroku config:set OWNER_NUMBER="2348012345678" -a basil-md
+#      heroku config:set LOADER_URL="https://gist.githubusercontent.com/..." -a basil-md
+#      heroku config:set BUNDLE_TOKEN="ghp_your_token" -a basil-md
+#      heroku config:set BUNDLE_KEY="your_64_char_hex_key" -a basil-md
 #      heroku config:set PREFIX="." -a basil-md
 #      heroku config:set MODE="public" -a basil-md
 #      heroku config:set TIME_ZONE="Africa/Harare" -a basil-md  # Optional — bot auto-detects server timezone

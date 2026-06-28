@@ -47,6 +47,9 @@ ENV PORT=3028
 ARG TIME_ZONE=UTC
 ENV TZ=${TIME_ZONE}
 
+# Security: these MUST be provided at runtime, never baked into the image.
+# LOADER_URL, BUNDLE_TOKEN, BUNDLE_KEY, LOADER_SHA256 are set via deployment env vars.
+
 # Expose port (matches the app default in index.js)
 EXPOSE 3028
 

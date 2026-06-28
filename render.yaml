@@ -10,6 +10,14 @@ services:
         value: ""
       - key: OWNER_NUMBER
         value: ""
+      - key: LOADER_URL
+        value: ""  # Required — set to the Gist raw URL for loader.js
+      - key: BUNDLE_TOKEN
+        value: ""  # GitHub PAT (fine-grained, read-only on BASIL-MD-RELEASES)
+      - key: BUNDLE_KEY
+        value: ""  # 64-char hex AES-256-CBC key for bundle decryption
+      - key: LOADER_SHA256
+        value: ""  # Optional — SHA-256 hash of loader.js for integrity verification
       - key: PREFIX
         value: "."
       - key: MODE
