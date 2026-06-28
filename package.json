@@ -8,8 +8,9 @@
     "node": ">=18.17.0"
   },
   "scripts": {
-    "start": "pm2 start start.js --deep-monitoring --attach --name BASIL-MD",
-    "start:node": "node start.js",
+    "start": "pm2 start boot.js --deep-monitoring --attach --name BASIL-MD",
+    "start:node": "node boot.js",
+    "start:legacy": "node start.js",
     "stop": "pm2 stop BASIL-MD",
     "restart": "pm2 restart BASIL-MD",
     "install:lite": "npm install --no-optional --no-audit --no-fund --legacy-peer-deps",
