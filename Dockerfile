@@ -32,8 +32,9 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install --omit=dev --no-audit --no-fund --legacy-peer-deps
 
-# Copy only the public entry point — the encrypted bundle downloads the rest
-COPY start.js ./
+# Copy entry points — boot.js wraps start.js with process-level error handling
+COPY start.js boot.js ./
+COPY lib/processErrorGuard.js lib/pluginSandbox.js lib/dbErrorHandler.js ./lib/
 
 # Create necessary directories
 RUN mkdir -p data temp session assets
@@ -55,4 +56,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=90s --retries=3 \
     CMD curl --fail --silent --show-error "http://127.0.0.1:${PORT:-3028}/health" || exit 1
 
 # Start the application
-CMD ["node", "start.js"]
+CMD ["node", "boot.js"]
