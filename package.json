@@ -27,7 +27,8 @@
     "secrets:decrypt": "node scripts/decrypt-secrets.mjs",
     "test:compat": "node scripts/smoke-compat.mjs",
     "test:chess": "node scripts/smoke-chess.mjs",
-    "test": "npm run test:compat && npm run test:chess"
+    "test:unit": "node --test --test-force-exit tests/*.test.js",
+    "test": "npm run test:unit"
   },
   "dependencies": {
     "@hapi/boom": "^10.0.1",
