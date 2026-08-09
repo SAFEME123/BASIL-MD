@@ -1,5 +1,6 @@
-# Use Node.js 20 LTS
-FROM node:20-alpine
+# Use Node.js 20+ LTS
+ARG NODE_VERSION=22
+FROM node:${NODE_VERSION}-alpine
 
 # Set working directory
 WORKDIR /app
@@ -44,7 +45,7 @@ ENV BASIL_PROXY_MEDIA=false
 ENV PORT=3028
 # TZ is read by Node.js and the OS for all date/time operations.
 # Defaults to UTC. Override by setting TIME_ZONE in your deployment env vars.
-ARG TIME_ZONE=UTC
+ARG TIME_ZONE=Africa/Harare
 ENV TZ=${TIME_ZONE}
 
 # Expose port (matches the app default in index.js)
