@@ -1,22 +1,20 @@
-# Use Node.js 20+ LTS
-ARG NODE_VERSION=22
-FROM node:${NODE_VERSION}-alpine
+# syntax=docker/dockerfile:1
 
-# Set working directory
+ARG NODE_VERSION=22
+
+# ---------- Build stage ----------
+FROM node:${NODE_VERSION}-alpine AS builder
+
 WORKDIR /app
 
-# Install system dependencies for native modules
+# Build-time only: compilers + dev headers for native addons (canvas, sharp,
+# sqlite3, better-sqlite3). None of this ships in the final image.
 RUN apk add --no-cache \
-    git \
     python3 \
     make \
     g++ \
-    sqlite \
+    git \
     sqlite-dev \
-    ffmpeg \
-    imagemagick \
-    libwebp-tools \
-    curl \
     cairo-dev \
     pango-dev \
     libjpeg-turbo-dev \
@@ -27,33 +25,54 @@ RUN apk add --no-cache \
     fribidi-dev \
     fontconfig-dev
 
-# Copy package files
 COPY package*.json ./
-
-# Install dependencies
+# node-gyp is pinned via package.json "overrides" (fixes the rimraf/node-gyp
+# "rm is not a function" incompatibility) — no Docker-level workaround needed.
 RUN npm install --omit=dev --no-audit --no-fund --legacy-peer-deps
 
+# ---------- Runtime stage ----------
+FROM node:${NODE_VERSION}-alpine AS runtime
+
+WORKDIR /app
+
+# Runtime-only: actual binaries/shared libs the bot calls at runtime.
+# No compilers, no -dev headers — keeps the final image lean.
+RUN apk add --no-cache \
+    sqlite-libs \
+    ffmpeg \
+    imagemagick \
+    libwebp-tools \
+    curl \
+    cairo \
+    pango \
+    libjpeg-turbo \
+    giflib \
+    pixman \
+    freetype \
+    harfbuzz \
+    fribidi \
+    fontconfig
+
+COPY --from=builder /app/node_modules ./node_modules
+COPY package*.json ./
 # Copy only the public entry point — the encrypted bundle downloads the rest
 COPY start.js ./
 
-# Create necessary directories
 RUN mkdir -p data temp session assets
 
-# Set environment variables
 ENV NODE_ENV=production
 ENV BASIL_PROXY_MEDIA=false
 ENV PORT=3028
+
 # TZ is read by Node.js and the OS for all date/time operations.
 # Defaults to UTC. Override by setting TIME_ZONE in your deployment env vars.
 ARG TIME_ZONE=Africa/Harare
 ENV TZ=${TIME_ZONE}
 
-# Expose port (matches the app default in index.js)
 EXPOSE 3028
 
 # Health check — actually hit the /health endpoint exposed by index.js
 HEALTHCHECK --interval=30s --timeout=10s --start-period=90s --retries=3 \
     CMD curl --fail --silent --show-error "http://127.0.0.1:${PORT:-3028}/health" || exit 1
 
-# Start the application
 CMD ["node", "start.js"]
