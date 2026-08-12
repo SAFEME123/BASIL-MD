@@ -13,21 +13,7 @@
     "stop": "pm2 stop BASIL-MD",
     "restart": "pm2 restart BASIL-MD",
     "install:lite": "npm install --no-optional --no-audit --no-fund --legacy-peer-deps",
-    "install:full": "npm install",
-    "lint": "eslint \"index.js\" \"config.js\" \"core/**/*.js\" \"lib/**/*.js\" \"plugins/**/*.js\"",
-    "lint:fix": "npm run lint -- --fix",
-    "format": "prettier --write \"**/*.{js,json,md}\" --ignore-path .gitignore",
-    "check:syntax": "node --input-type=module -e \"import('./index.js').catch(()=>{});\" || true",
-    "verify": "node --check index.js && node --check config.js && node --check core/connect.js",
-    "bundle:pack": "node scripts/pack.mjs",
-    "bundle:release": "node scripts/pack.mjs --release-only",
-    "obfuscate:chain": "node scripts/obfuscate-chain.mjs",
-    "obfuscate:file": "node scripts/obfuscate-chain.mjs --file",
-    "secrets:encrypt": "node scripts/encrypt-secrets.mjs",
-    "secrets:decrypt": "node scripts/decrypt-secrets.mjs",
-    "test:compat": "node scripts/smoke-compat.mjs",
-    "test:chess": "node scripts/smoke-chess.mjs",
-    "test": "npm run test:compat && npm run test:chess"
+    "install:full": "npm install"
   },
   "dependencies": {
     "@hapi/boom": "^10.0.1",
@@ -109,30 +95,5 @@
     "uuid": "^14.0.1",
     "axios": "^1.18.1",
     "core-js": "^3.38.0"
-  },
-  "devDependencies": {
-    "esbuild": "^0.28.1",
-    "eslint": "^9.9.0",
-    "eslint-plugin-import": "^2.29.1",
-    "javascript-obfuscator": "^4.1.1",
-    "js-confuser": "^2.0.1",
-    "pm2": "^5.4.2",
-    "prettier": "^3.3.3"
-  },
-  "allowScripts": {
-    "sqlite3@5.1.7": true,
-    "better-sqlite3@12.11.1": true,
-    "canvas": true,
-    "sharp@0.32.6": true,
-    "isolated-vm@6.1.2": true,
-    "github:WhiskeySockets/Baileys#731cd6b5d1991a16d0c65072fd3107c43968e4a9": true,
-    "btch-downloader@6.0.37": true,
-    "core-js@3.49.0": true,
-    "esbuild@0.28.1": true,
-    "esbuild@0.27.7": true,
-    "javascript-obfuscator@4.1.1": true,
-    "node_extra_ca_certs_mozilla_bundle": true,
-    "protobufjs@7.6.4": true,
-    "puppeteer@24.42.0": true
   }
 }
