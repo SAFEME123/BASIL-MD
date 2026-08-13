@@ -92,8 +92,8 @@
     "glob": "^11.0.0",
     "tar": "^7.0.0",
     "minimatch": "^9.0.0",
-    "uuid": "^14.0.1",
-    "axios": "^1.18.1",
+    "uuid": "$uuid",
+    "axios": "$axios",
     "core-js": "^3.38.0",
     "node-gyp": "^13.0.0"
   },
