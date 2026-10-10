@@ -86,10 +86,22 @@ cd BASIL-MD
 npm install
 cp config.env.example config.env
 # Set SESSION_ID and OWNER_NUMBER in config.env
-node index.js
+npm start
 ```
 
 > **Requirements:** Node.js ≥ 20 · FFmpeg (for media) · PostgreSQL (optional)
+
+> **Other start methods:** `npm run start:node` (plain Node, no pm2) · `npm stop` / `npm restart` (pm2 lifecycle)
+
+---
+
+## 🔐 Dashboard
+
+Once connected, BASIL-MD opens a **web dashboard** on its server port (default `3028`) at `/dashboard` — a full WhatsApp web client: chats, media, statuses, group admin controls and more.
+
+- On first boot the bot sends a **Dashboard Access** card (link + password) to its own chat and **pins it for 7 days**
+- The password is persistent across restarts — the card is only announced once
+- Forgot it? Send `.resetpass` from your owner number to regenerate and re-pin a new password
 
 ---
 
@@ -148,6 +160,9 @@ docker run -d \
 | `TIME_ZONE` | ❌ | auto | e.g. `Africa/Harare` |
 | `DATABASE_URL` | ❌ | SQLite | PostgreSQL URI (Neon / Supabase) |
 | `CHATBOT_MODE` | ❌ | `false` | `all` / `dm` / `groups` / `me` / `false` |
+| `GROUP_CHATBOT_LIMIT` | ❌ | `50` | Daily AI msgs per group; `-1` = unlimited in all groups |
+| `UNLIMITED_GROUPS` | ❌ | — | Group JIDs that bypass chatbot limits (comma-separated) |
+| `UNLIMITED_GROUP_NAMES` | ❌ | — | Group-name substrings that bypass limits, e.g. `DEVSTRIK,STRIKERBOY` |
 | `AI_ENDPOINT` | ❌ | — | Custom OpenAI-compatible API URL |
 | `GROQ_API_KEY` | ❌ | — | [Groq](https://console.groq.com) key for TL;DR summaries |
 | `FAL_AI_KEY` | ❌ | built-in | [fal.ai](https://fal.ai) key for AI video generation |

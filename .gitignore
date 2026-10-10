@@ -34,6 +34,15 @@ data/*.sqlite
 data/*.sqlite-wal
 data/*.sqlite-shm
 
+# Dashboard credentials (contains the dashboard password)
+data/dashboard.json
+
+# Per-user GitHub tokens
+data/github_tokens.json
+
+# Per-user site login cookies
+data/site_cookies.json
+
 # In-memory store snapshots
 store.json
 *.store.json
@@ -109,3 +118,6 @@ dist/loader.js
 # ===== Misc =====
 *.tgz
 .local/
+
+# ===== Kilo (local agent state & config with secrets) =====
+.kilo/

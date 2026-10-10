@@ -25,7 +25,8 @@ RUN apk add --no-cache \
     freetype-dev \
     harfbuzz-dev \
     fribidi-dev \
-    fontconfig-dev
+    fontconfig-dev \
+    vips-dev
 
 # Copy package files
 COPY package*.json ./
@@ -35,6 +36,7 @@ RUN npm install --omit=dev --no-audit --no-fund --legacy-peer-deps
 
 # Copy only the public entry point — the encrypted bundle downloads the rest
 COPY start.js ./
+COPY canvas-preload.cjs ./
 
 # Create necessary directories
 RUN mkdir -p data temp session assets
@@ -43,6 +45,9 @@ RUN mkdir -p data temp session assets
 ENV NODE_ENV=production
 ENV BASIL_PROXY_MEDIA=false
 ENV PORT=3028
+# Guarantee canvas loads before sharp/native image modules in ANY entry script
+# (belt-and-braces with the preload at the top of index.js)
+ENV NODE_OPTIONS=--require=/app/canvas-preload.cjs
 # TZ is read by Node.js and the OS for all date/time operations.
 # Defaults to UTC. Override by setting TIME_ZONE in your deployment env vars.
 ARG TIME_ZONE=Africa/Harare
