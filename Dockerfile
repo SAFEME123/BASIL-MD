@@ -36,7 +36,7 @@ RUN npm install --omit=dev --no-audit --no-fund --legacy-peer-deps
 
 # Copy only the public entry point — the encrypted bundle downloads the rest
 COPY start.js ./
-COPY canvas-preload.cjs ./
+COPY lib/canvas-preload.cjs ./
 
 # Create necessary directories
 RUN mkdir -p data temp session assets

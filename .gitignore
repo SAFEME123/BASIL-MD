@@ -121,3 +121,7 @@ dist/loader.js
 
 # ===== Kilo (local agent state & config with secrets) =====
 .kilo/
+
+# ===== LagosLife test harness =====
+# Results files contain throwaway test-account credentials — never commit
+data/lagoslife/
