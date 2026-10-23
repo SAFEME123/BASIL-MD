@@ -1,64 +1,41 @@
-# Use Node.js 20+ LTS
+# Public deployment image: generate start.js with the owner release flow first.
+# Keep the public start.js -> remote loader -> encrypted ZIP -> index.js chain.
 ARG NODE_VERSION=22
-FROM node:${NODE_VERSION}-alpine
-
-# Set working directory
+FROM node:${NODE_VERSION}-bookworm-slim
 WORKDIR /app
 
-# Install system dependencies for native modules
-RUN apk add --no-cache \
-    git \
-    python3 \
-    make \
-    g++ \
-    sqlite \
-    sqlite-dev \
-    ffmpeg \
-    imagemagick \
-    libwebp-tools \
-    curl \
-    cairo-dev \
-    pango-dev \
-    libjpeg-turbo-dev \
-    giflib-dev \
-    pixman-dev \
-    freetype-dev \
-    harfbuzz-dev \
-    fribidi-dev \
-    fontconfig-dev \
-    vips-dev
+# glibc supports node-canvas prebuilt binaries; headers permit source fallback.
+# Retain existing bot media/native requirements without changing npm dependencies.
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ca-certificates git python3 make g++ pkg-config \
+    sqlite3 libsqlite3-dev ffmpeg imagemagick webp curl tzdata \
+    libcairo2-dev libpango1.0-dev libjpeg62-turbo-dev libgif-dev \
+    libpixman-1-dev libfreetype6-dev libharfbuzz-dev libfribidi-dev \
+    libfontconfig1-dev libvips-dev fonts-dejavu-core \
+    && rm -rf /var/lib/apt/lists/*
 
-# Copy package files
 COPY package*.json ./
+# Preserve legacy-peer-deps compatibility and explicitly retain optional renderers.
+# Prefer a reproducible lockfile; do not silently regenerate a mismatched lockfile.
+RUN if [ -f package-lock.json ]; then \
+      npm ci --omit=dev --include=optional --no-audit --no-fund --legacy-peer-deps; \
+    else \
+      npm install --omit=dev --include=optional --no-audit --no-fund --legacy-peer-deps; \
+    fi
 
-# Install dependencies
-RUN npm install --omit=dev --no-audit --no-fund --legacy-peer-deps
-
-# Copy only the public entry point — the encrypted bundle downloads the rest
+# Public bootstrap and non-secret helper files only; NEVER COPY . .
 COPY start.js ./
-COPY lib/canvas-preload.cjs ./
-
-# Create necessary directories
+COPY lib/canvas-compat.cjs ./lib/canvas-compat.cjs
+COPY lib/canvas-preload.cjs ./lib/canvas-preload.cjs
 RUN mkdir -p data temp session assets
 
-# Set environment variables
-ENV NODE_ENV=production
-ENV BASIL_PROXY_MEDIA=false
-ENV PORT=3028
-# Guarantee canvas loads before sharp/native image modules in ANY entry script
-# (belt-and-braces with the preload at the top of index.js)
-ENV NODE_OPTIONS=--require=/app/canvas-preload.cjs
-# TZ is read by Node.js and the OS for all date/time operations.
-# Defaults to UTC. Override by setting TIME_ZONE in your deployment env vars.
+ENV NODE_ENV=production \
+    BASIL_PROXY_MEDIA=false \
+    PORT=3028 \
+    NODE_OPTIONS=--require=/app/lib/canvas-preload.cjs
 ARG TIME_ZONE=Africa/Harare
 ENV TZ=${TIME_ZONE}
-
-# Expose port (matches the app default in index.js)
 EXPOSE 3028
-
-# Health check — actually hit the /health endpoint exposed by index.js
 HEALTHCHECK --interval=30s --timeout=10s --start-period=90s --retries=3 \
     CMD curl --fail --silent --show-error "http://127.0.0.1:${PORT:-3028}/health" || exit 1
-
-# Start the application
 CMD ["node", "start.js"]

@@ -1,0 +1,11 @@
+# Public image context: only bootstrap, manifests and non-secret canvas helpers.
+# Default exclusion protects env/config, auth/session, data and release keys.
+**
+!Dockerfile
+!Dockerfile.dockerignore
+!package.json
+!package-lock.json
+!start.js
+!lib/
+!lib/canvas-compat.cjs
+!lib/canvas-preload.cjs

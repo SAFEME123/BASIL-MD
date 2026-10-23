@@ -1,0 +1,10 @@
+# Public image context only; excludes source, keys, auth, release and dist.
+**
+!Dockerfile
+!.dockerignore
+!package.json
+!package-lock.json
+!start.js
+!lib/
+!lib/canvas-compat.cjs
+!lib/canvas-preload.cjs

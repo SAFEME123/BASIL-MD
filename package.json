@@ -8,7 +8,7 @@
     "node": ">=20.0.0"
   },
   "scripts": {
-    "start": "pm2 start start.js --deep-monitoring --attach --name BASIL-MD",
+    "start": "node start.js",
     "start:node": "node start.js",
     "stop": "pm2 stop BASIL-MD",
     "restart": "pm2 restart BASIL-MD",
