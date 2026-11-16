@@ -1,312 +1,262 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=BASIL-MD&fontSize=90&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=The%20Most%20Powerful%20WhatsApp%20Bot&descAlignY=58&descSize=20&descColor=cccccc" width="100%" />
+# BASIL-MD
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=25D366&center=true&vCenter=true&random=false&width=600&lines=⚡+Feature-Rich+WhatsApp+Bot;🤖+AI+%7C+Media+%7C+Groups+%7C+Owner+Tools;🎵+AI+Music+%7C+🎬+AI+Video+%7C+📝+TL%3BDR;🌍+Always+Online+%7C+Always+Updated;🔥+Built+with+Node.js+%26+Baileys)](https://git.io/typing-svg)
+**Your WhatsApp toolkit for media, conversation, games and everyday tasks.**
 
-<!-- 🟢 Live Bot Console — auto-updates dynamically from the bot's Express server -->
-<a href="https://github.com/SAFEME123/BASIL-MD">
-  <img src="https://basil-pair-production.up.railway.app/status.svg" height="200" alt="Live Bot Console" />
-</a>
-<br/>
-<img src="https://img.shields.io/badge/AI%20Models-15%2B-7B2FBE?style=for-the-badge&logo=openai&logoColor=white&labelColor=0d1117" height="30" alt="AI Models" />
-<img src="https://img.shields.io/badge/Plugins-100%2B-FF6B6B?style=for-the-badge&logo=puzzle-piece&logoColor=white&labelColor=0d1117" height="30" alt="Plugins" />
+**BASIL · DEVSTRIKE TEAM**
 
-<br/>
+[![Node.js](https://img.shields.io/badge/Node.js-20%2B-43853d?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org)
+[![License](https://img.shields.io/badge/License-MIT-8957e5?style=for-the-badge)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/SAFEME123/BASIL-MD?style=for-the-badge&color=FFD700)](https://github.com/SAFEME123/BASIL-MD/stargazers)
+[![Forks](https://img.shields.io/github/forks/SAFEME123/BASIL-MD?style=for-the-badge&color=0969da)](https://github.com/SAFEME123/BASIL-MD/network/members)
 
-[![Stars](https://img.shields.io/github/stars/SAFEME123/BASIL-MD?style=for-the-badge&logo=github&color=FFD700&labelColor=0d1117)](https://github.com/SAFEME123/BASIL-MD/stargazers)
-[![Forks](https://img.shields.io/github/forks/SAFEME123/BASIL-MD?style=for-the-badge&logo=git&color=0969da&labelColor=0d1117)](https://github.com/SAFEME123/BASIL-MD/network/members)
-[![License](https://img.shields.io/badge/License-MIT-8957e5?style=for-the-badge&labelColor=0d1117)](LICENSE)
-[![Node.js](https://img.shields.io/badge/Node.js-%3E%3D20-43853d?style=for-the-badge&logo=nodedotjs&labelColor=0d1117)](https://nodejs.org)
-[![WhatsApp](https://img.shields.io/badge/Baileys-Powered-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=0d1117)](https://github.com/WhiskeySockets/Baileys)
-
-<br/>
-
-[![⭐ Star this repo](https://img.shields.io/badge/⭐%20Star%20this%20Repo-FFD700?style=for-the-badge&logo=github&logoColor=black)](https://github.com/SAFEME123/BASIL-MD/stargazers)
+[Get a session](https://pair.koyeb.app/) · [Quick start](#quick-start) · [Commands](#command-starter) · [Hosting](#hosting) · [Support](#support-and-contributions)
 
 </div>
 
----
+> **Official active mirror:** [SAFEME123/BASIL-MD](https://github.com/SAFEME123/BASIL-MD). The original `BOTMASTER350/BASIL-MD` account is currently unavailable; use the active mirror for updates.
 
-<div align="center">
+BASIL-MD combines familiar WhatsApp messages with media downloads, AI-assisted conversation, interactive games, weather forecasts and group tools. Browse with `.menu`, choose the feature you need, and follow its reply or button prompts.
 
-> ⚠️ **Notice:** The original account **BOTMASTER350/BASIL-MD** is currently unavailable due to a GitHub account issue.
-> **[SAFEME123/BASIL-MD](https://github.com/SAFEME123/BASIL-MD)** is the **official active mirror** receiving all updates.
+## Explore BASIL
 
-</div>
+| Feature | What you can do | Start here |
+|:---|:---|:---|
+| **Native messages and media** | Send audio, video, documents, stickers and voice notes; choose the formats offered by each command | `.song`, `.video`, `.sticker`, `.tts` |
+| **Music and downloads** | Search YouTube music, look up Spotify tracks and playlists, and retrieve supported social-media content | `.song <title>`, `.spotify <title or URL>` |
+| **Movies and anime** | Search titles, browse recent releases and follow available episode or download choices | `.movie <title>`, `.latest`, `.anime <title>` |
+| **Chatbot and AI tools** | Ask questions, work with text and images, summarize available conversation history, or request generated media | `.ai <question>`, `.chatbot`, `.tldr` |
+| **Pocket Arcade** | Browse arcade, racing, puzzle, board and text games | `.gamesmenu`, `.dino`, `.chess` |
+| **Weather** | Open an illustrated seven-day forecast with hourly detail, a city-local clock and Celsius/Fahrenheit options | `.weather London`, `.weather Harare f` |
+| **Sports** | Browse reported match states, leagues, tables, news, highlights and available replays | `.sports football live`, `.sports leagues` |
+| **Everyday tools** | Extract image text, translate, make QR codes, and review writing-style indicators | `.ocr`, `.translate`, `.qr`, `.aidetect` |
+| **Group tools** | Configure welcome messages, polls and moderation; manage chatbot participation | `.menu` → group commands |
+| **Pairing and dashboard** | Link your WhatsApp account and access the password-protected web dashboard | [Pair BASIL](https://pair.koyeb.app/), `/dashboard` |
 
----
+**Availability:** downloads and AI generation depend on the source, provider limits and configured services. Rich cards, buttons and in-chat games depend on the receiving WhatsApp version. Some features offer text or document alternatives; a successful send does not guarantee that every client renders an interactive view.
 
-## ✨ Features
+## Quick start
 
-<div align="center">
+### 1. Prepare your host
 
-| Category | Highlights |
-|:---:|:---|
-| 🎬 **Downloaders** | TikTok · Instagram · Facebook · YouTube · Spotify · SoundCloud · Threads · Pinterest · CapCut · Twitter/X |
-| 🎥 **Movies** | Search & download via `.movie` · Browse latest via `.latest` · Multi-source fallback |
-| 🤖 **AI Chat** | ChatGPT · Groq · DALL-E · Flux · Stable Diffusion · 15+ model cascade · Vision · OCR |
-| 🎵 **AI Music** | _"Create a song about..."_ → AI composes & sends MP3 · deAPI.ai · Suno · MusicGen · CityFunc |
-| 🎬 **AI Video** | _"Generate a video of..."_ → AI creates video · fal.ai (SVD, WAN 2.5) |
-| 📝 **TL;DR** | _"What did I miss?"_ → AI summarizes last 50 group messages · Natural language trigger |
-| 🛠️ **Tools** | Weather · OCR · QR Code · Currency · Wikipedia · Dictionary · Translator · IMDB |
-| 🎮 **Fun** | Magic 8-ball · Love Calculator · Truth or Dare · Roast Generator · Horoscope |
-| 👥 **Group** | Welcome/Goodbye · Anti-Link · Anti-Tag · Anti-Call · Anti-Demote · Anti-Bot · Polls · Warn |
-| ⚙️ **Owner** | Remote Settings (`.set`) · Broadcast · Block/Unblock · Ban System · Sudo |
-| 🔧 **Extras** | Sticker Maker · Fancy Text · Password Gen · UUID/Hash · Screenshot · Countdown |
+- Use **Node.js 20 or newer**. The supplied Docker image uses Node.js 22.
+- Install **Git** and **FFmpeg** for media processing.
+- Allow outbound internet access and provide writable storage for the running bot.
+- Keep optional media/rendering dependencies installed for the full experience. If native modules cannot install on your system, use the supplied Docker image with its build libraries.
 
-</div>
+### 2. Link WhatsApp
 
----
+1. Open the official [BASIL pairing page](https://pair.koyeb.app/).
+2. Choose phone-number pairing or QR linking. Enter your number with its country code when requested.
+3. In WhatsApp, open **Linked Devices → Link a Device**. Scan the QR, or select **Link with phone number** and enter the pairing code.
+4. Complete linking and wait for the `SESSION_ID` in your WhatsApp self-chat. Save the complete value, including its `BASIL-MD~` prefix.
 
-## 🔑 Get Your Session ID
+**A pairing code or QR image is not a completed session.** Codes expire; check WhatsApp before requesting another attempt. Link only an account you own or have permission to operate. Treat the session ID like a password.
 
-<div align="center">
-
-**Connect your WhatsApp number to the bot in seconds**
-
-<br/>
-
-<a href="https://pair.koyeb.app/">
-  <img src="https://img.shields.io/badge/⚡%20PAIR%20BASIL--MD-GET%20SESSION%20ID%20NOW-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=128C7E" height="45" alt="Pair BASIL-MD" />
-</a>
-<br/><br/>
-
-> 1️⃣ Click the button above &nbsp;·&nbsp; 2️⃣ Enter your WhatsApp number &nbsp;·&nbsp; 3️⃣ Copy your `SESSION_ID` &nbsp;·&nbsp; 4️⃣ Paste it in your config
-
-</div>
-
----
-
-## 🚀 Quick Start
+### 3. Install and configure
 
 ```bash
 git clone https://github.com/SAFEME123/BASIL-MD.git
 cd BASIL-MD
-npm install
-cp config.env.example config.env
-# Set SESSION_ID and OWNER_NUMBER in config.env
-npm start
+npm install --include=optional --legacy-peer-deps
 ```
 
-> **Requirements:** Node.js ≥ 20 · FFmpeg (for media) · PostgreSQL (optional)
+Create a private `config.env` file in the project directory, or set the equivalent environment variables in your hosting dashboard:
 
-> **Other start methods:** `npm run start:node` (plain Node, no pm2) · `npm stop` / `npm restart` (pm2 lifecycle)
+```dotenv
+SESSION_ID="BASIL-MD~your-session-id"
+OWNER_NUMBER="your-number-with-country-code"
+PREFIX="."
+MODE="public"
+CHATBOT_MODE="false"
+```
 
----
+Replace both placeholders. `OWNER_NUMBER` is your WhatsApp number in international digits, without `+` or spaces. Never commit `config.env` or paste session credentials into issues or public chats.
 
-## 🔐 Dashboard
+### 4. Start the public distribution
 
-Once connected, BASIL-MD opens a **web dashboard** on its server port (default `3028`) at `/dashboard` — a full WhatsApp web client: chats, media, statuses, group admin controls and more.
-
-- On first boot the bot sends a **Dashboard Access** card (link + password) to its own chat and **pins it for 7 days**
-- The password is persistent across restarts — the card is only announced once
-- Forgot it? Send `.resetpass` from your owner number to regenerate and re-pin a new password
-
----
-
-## 🌐 Deploy
-
-<div align="center">
-
-<a href="https://railway.app/new/template?template=https://github.com/SAFEME123/BASIL-MD">
-  <img src="https://img.shields.io/badge/🚂%20RAILWAY-Deploy%20Now-7B2FBE?style=for-the-badge&logo=railway&logoColor=white&labelColor=0d1117" height="40" alt="Deploy on Railway" />
-</a>
-&nbsp;
-<a href="https://heroku.com/deploy?template=https://github.com/SAFEME123/BASIL-MD">
-  <img src="https://img.shields.io/badge/🟣%20HEROKU-Deploy%20Now-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=0d1117" height="40" alt="Deploy to Heroku" />
-</a>
-&nbsp;
-<a href="https://render.com">
-  <img src="https://img.shields.io/badge/🖥️%20RENDER-Deploy%20Now-46E3B7?style=for-the-badge&logo=render&logoColor=white&labelColor=0d1117" height="40" alt="Deploy on Render" />
-</a>
-&nbsp;
-<a href="https://app.koyeb.com/deploy?type=git&repository=github.com/SAFEME123/BASIL-MD">
-  <img src="https://img.shields.io/badge/☁️%20KOYEB-Deploy%20Now-04D4A4?style=for-the-badge&logo=linux&logoColor=white&labelColor=0d1117" height="40" alt="Deploy on Koyeb" />
-</a>
-
-</div>
-
-<br/>
-
-### ☁️ Koyeb *(recommended — always-on free tier)*
 ```bash
-koyeb app init basil-md --config koyeb.yaml
+node start.js
 ```
-Set `SESSION_ID` and `OWNER_NUMBER` in the Koyeb dashboard.
 
-### 🐳 Docker
+Use **`node start.js` as the public hosting start command**. Once WhatsApp is connected, send `.menu` and `.alive` from an allowed chat.
+
+<details>
+<summary>Working with a complete local source checkout?</summary>
+
+`node index.js` applies only to a complete local source checkout that actually contains `index.js`. Its package scripts may also target that file. The public distribution starts through `start.js`; do not replace its start command with a source-checkout command or assume the two packages have identical npm scripts.
+
+</details>
+
+## Hosting
+
+Use a persistent Node.js process or the supplied Docker image. Configure `SESSION_ID` and `OWNER_NUMBER` as private environment variables on the host.
+
+| Host | Setup |
+|:---|:---|
+| [Railway](https://railway.app/) | Deploy the active GitHub repository. The project configuration uses `node start.js` and `/health`. |
+| [Render](https://render.com/) | Deploy a Docker web service from the active repository; configure the required environment variables and `/health` check. |
+| [Koyeb](https://app.koyeb.com/deploy?type=git&repository=github.com/SAFEME123/BASIL-MD) | Deploy the repository with Docker; expose port `3028` and use `/health`. |
+| [Heroku](https://heroku.com/deploy?template=https://github.com/SAFEME123/BASIL-MD) | Review the deployment template and current plan requirements; ensure the process starts with `node start.js`. |
+| **VPS or local machine** | Install the prerequisites, configure the environment and supervise `node start.js` with your chosen process manager. |
+
+The default HTTP port is **3028**; use the host's `PORT` setting where provided. `/health` is a process health endpoint, not proof that WhatsApp pairing or every external feature is working. Host pricing, sleep policies and storage persistence vary by plan.
+
+### Docker
+
+From the cloned project directory, with your private `config.env` prepared:
+
 ```bash
 docker build -t basil-md .
-docker run -d \
-  -e SESSION_ID="your-session-id" \
-  -e OWNER_NUMBER="2638412345678" \
+docker run -d --name basil-md \
+  --env-file config.env \
   -p 3028:3028 \
+  -v basil-data:/app/data \
+  -v basil-session:/app/session \
+  --restart unless-stopped \
   basil-md
 ```
 
----
+This maps the default port and keeps the data and session directories in named volumes. Keep these volumes private and back them up as appropriate. For a public dashboard, configure HTTPS through your hosting platform or reverse proxy.
 
-## ⚙️ Environment Variables
+### Common settings
 
-<div align="center">
-
-| Variable | Required | Default | Description |
-|:---|:---:|:---:|:---|
-| `SESSION_ID` | ✅ | — | WhatsApp pairing session |
-| `OWNER_NUMBER` | ✅ | — | Your number (country code, no `+`) |
-| `PREFIX` | ❌ | `.` | Command prefix |
-| `MODE` | ❌ | `public` | `public` / `groups` / `private` / `inbox` |
-| `TIME_ZONE` | ❌ | auto | e.g. `Africa/Harare` |
-| `DATABASE_URL` | ❌ | SQLite | PostgreSQL URI (Neon / Supabase) |
-| `CHATBOT_MODE` | ❌ | `false` | `all` / `dm` / `groups` / `me` / `false` |
-| `GROUP_CHATBOT_LIMIT` | ❌ | `50` | Daily AI msgs per group; `-1` = unlimited in all groups |
-| `UNLIMITED_GROUPS` | ❌ | — | Group JIDs that bypass chatbot limits (comma-separated) |
-| `UNLIMITED_GROUP_NAMES` | ❌ | — | Group-name substrings that bypass limits, e.g. `DEVSTRIK,STRIKERBOY` |
-| `AI_ENDPOINT` | ❌ | — | Custom OpenAI-compatible API URL |
-| `GROQ_API_KEY` | ❌ | — | [Groq](https://console.groq.com) key for TL;DR summaries |
-| `FAL_AI_KEY` | ❌ | built-in | [fal.ai](https://fal.ai) key for AI video generation |
-| `DEAPI_AI_KEY` | ❌ | — | [deAPI.ai](https://deapi.ai) key for AI music ($5 free) |
-| `APIFRAME_KEY` | ❌ | — | [Apiframe](https://apiframe.pro) key for Suno music |
-| `MUBERT_API_KEY` | ❌ | — | [Mubert](https://mubert.com/render) key for background music |
-| `AUTO_READ_STATUS` | ❌ | `false` | Auto-view statuses |
-| `AUTO_STATUS_LIKE` | ❌ | `off` | Auto-like statuses |
-| `WELCOME` | ❌ | `true` | Group welcome messages |
-| `ANTI_LINK` | ❌ | `false` | Delete links from non-admins |
-| `ANTI_CALL` | ❌ | `false` | Reject incoming calls |
-
-</div>
-
-See [`config.env.example`](config.env.example) for the full list.
-
-> **💡 Pro Tip:** While the bot includes some fallback free tiers for AI generation, it is highly recommended to get your own API keys for [Groq](https://console.groq.com), [deAPI](https://deapi.ai), and [Apiframe](https://apiframe.pro) to ensure you don't hit public rate limits!
-
----
-
-## 🗄️ Database
-
-| Option | When to use |
+| Variable | Purpose |
 |:---|:---|
-| **PostgreSQL** *(Neon / Supabase — free tier)* | Production — persistent, multi-instance |
-| **SQLite** *(default, zero config)* | Local dev — data lost on container restart |
+| `SESSION_ID` | Complete session value received after linking |
+| `OWNER_NUMBER` | Your WhatsApp number, country code included, digits only |
+| `PREFIX` | Command prefix; default `.` |
+| `MODE` | Bot scope: `public`, `groups`, `private` or `inbox` |
+| `BOT_MENUMODE` | Menu presentation: `reply` or `button` |
+| `TIME_ZONE` | Optional IANA timezone, such as `Africa/Harare` |
+| `PORT` | HTTP port; default `3028` |
+| `CHATBOT_MODE` | Startup chatbot setting; keep `false` until you are ready to enable replies |
+| `AI_API_BASE` | Optional OpenAI-compatible API base URL for your chosen provider |
+| `AI_API_KEY` | Your provider credential; keep it private |
+| `AI_MODEL` | Model identifier supported by your provider |
+| `WELCOME` / `GOODBYE` | Group join and leave messages |
+| `AUTO_READ_STATUS` / `AUTO_READ_MSG` / `AUTO_REACT` | Optional automation; leave `false` unless intentionally enabled |
+| `AUTO_STATUS_LIKE` | Optional status reactions; leave `off` unless intentionally enabled |
 
----
+Set API credentials through the private environment configuration and restart the process after environment changes. Provider access, billing and model availability are governed by your provider.
 
-## 🤖 Custom AI Endpoint
+## Command starter
 
-By default BASIL-MD connects to a **private AI API** that powers the chatbot out of the box — no configuration needed. For heavier usage or specific models, you can plug in your own OpenAI-compatible endpoint.
+Examples use the default `.` prefix. Replace it if you configured another prefix. Use `.menu` for the command list available on your installation; configuration and moderation commands require the appropriate permissions.
 
-```bash
-# Via .set command (no restart needed)
-.set AI_ENDPOINT https://api.openai.com/v1
-.set AI_API_KEY  sk-xxxxxxxxxxxxxxxx
-.set AI_MODEL    gpt-4o
+| Task | Example | How to use it |
+|:---|:---|:---|
+| Browse commands | `.menu` | Open the feature menu |
+| Check responsiveness | `.ping` | View send-call timing and a runtime snapshot; this is not recipient delivery time or bandwidth |
+| Find music | `.song song title` | Choose from the offered audio, document or voice-note options |
+| Find a video | `.video search terms` | Follow the available quality choices |
+| Look up Spotify content | `.spotify track title` | Search or supply a track/playlist URL |
+| Find lyrics | `.spotify lyrics track title` | Returns matching lyrics when available |
+| Make a sticker | `.sticker` | Reply to supported image/video media |
+| Speak text | `.tts Hello from BASIL` | Generate speech through the configured service |
+| Ask a question | `.ai Explain a solar eclipse` | Request an AI response |
+| Configure chatbot replies | `.chatbot` | View settings for the current chat; use `.chatbot on` or `.chatbot off` where permitted |
+| Summarize a conversation | `.tldr` | Summarize available recent group messages |
+| Check weather | `.weather London c` | Open the saved forecast; use `f` for Fahrenheit |
+| Browse games | `.gamesmenu` | Choose a game and send its command |
+| Check football | `.sports football live` | List reported matches, then follow the numbered choices |
+| Generate an ordinary QR | `.qr https://example.com` | Encode supplied text or a URL |
+| Request a pairing code | `.pair <your-number>` | Use a private chat and complete the WhatsApp linking steps |
+| Request a pairing QR | `.pairqr` | Use a private chat; scan the returned image before it expires |
+
+### Media and downloads
+
+BASIL includes commands for YouTube, Spotify, SoundCloud, TikTok, Instagram, Facebook, Threads, Pinterest and other supported sources. A source may return a downloadable file, a selection list, an informational link or an error. Only download and redistribute content you have permission to use.
+
+- **Spotify playlists:** a playlist URL first lists metadata. Reply to the current card with displayed numbers such as `1,3,5`, or `all` for at most ten tracks. Downloads run sequentially after selection; listing a playlist does not download it automatically.
+- **Music players:** artwork and matched lyrics accompany supported song results. Synchronized lyrics appear only when a matching timed source is available.
+- **Movies, anime and sports:** follow the source's available choices. An embed or episode-page link is not necessarily a direct video download. Some sports media is supplied as a link because of its format, size or source.
+- **Selections:** use the current prompt in the same chat. Numbered choices and buttons can expire; an old reply may no longer apply.
+
+### Pocket Arcade and weather cards
+
+| Experience | Try it | What to expect |
+|:---|:---|:---|
+| Arcade | `.dino`, `.flappy`, `.tetris`, `.invaders` | Short interactive games with their own on-screen controls |
+| Action and racing | `.plane`, `.basilfighter`, `.highwayrush` | Space Striker, Rooftop Rumble and Highway Rush |
+| Puzzles and boards | `.game2048`, `.memorygame`, `.chess`, `.checkers` | Puzzle and strategy choices; follow each game's instructions |
+| Text games | `.tictactoe`, `.connectfour`, `.trivia` | Chat-based alternatives |
+| Forecast cards | `.weather Tokyo` | Saved hourly/daily forecast data and a city-local clock |
+
+Rich-game rendering depends on client support. The arcade library lets you copy a command and send it to launch the game. A weather card is a snapshot of the fetched forecast; its clock advancing does not refresh the weather data. Request weather again for a newer forecast.
+
+### Chatbot and creative tools
+
+In an enabled chat, try natural requests such as:
+
+```text
+Play Baby Shark on Spotify
+What's the weather in London?
+Show live football matches
 ```
 
-| Setting | What it does |
+Supported requests route to the corresponding command features and follow the chat's settings and permissions. Group admins can enable or disable group chatbot replies. Enable automation only where participants expect it; `.chatbot off` stops chatbot replies for that chat.
+
+For creative tasks, explore `.imagine`, `.aimusic` and `.videogen`. Image, music, video and speech generation depend on the available providers and may require credentials or paid access. Review AI responses and generated content before relying on or sharing them.
+
+The chatbot recognizes supported English group-description rules such as `No links`, `No stickers`, `No media` and `Banned words: exampleword`. With group-admin permission, matching moderation protections can be enabled in delete-only mode. Group admins can adjust them through the relevant commands; arbitrary description text is not a general instruction system.
+
+## Privacy and consent
+
+**Keep sessions, passwords and API keys private.** Do not include them in screenshots, support requests or shared logs. Review WhatsApp's Linked Devices list and unlink a session you no longer use.
+
+| Feature | What to know before using it |
 |:---|:---|
-| `AI_ENDPOINT` | Base URL of any OpenAI-compatible API |
-| `AI_API_KEY` | Bearer token sent as `Authorization: Bearer <key>` |
-| `AI_MODEL` | Default model to request (e.g. `gpt-4o`, `mistral-7b`) |
+| **Pairing** | A QR image is a temporary snapshot. A chosen delivery recipient does not bind the QR to that phone number. Use the [pairing site](https://pair.koyeb.app/) for a refreshing QR and wait for the session ID after linking. |
+| **Ordinary QR generation** | `.qr` encodes text/URLs. If local generation fails, external QR services may receive that content. Do not encode credentials or sensitive information. Use `.pairqr` specifically for account linking. |
+| **Chatbot and media tools** | Selected services may process prompts, supplied media or relevant conversation context. Avoid sending private material without the affected people's permission. |
+| **Website-to-APK** | Attach or reply to an icon and use `.web2apk https://example.com \| My App`. Review the website, app settings and icon-sharing prompt before confirming. Approval expires after 90 seconds; `.web2apk cancel` cancels a pending request or stops local tracking. A remote build may continue after tracking stops, and file checks do not certify app safety. |
+| **Website AI indicators** | `.aidetect url https://example.com` asks for one-use confirmation of the exact URL and named provider, valid for two minutes. Follow the displayed confirmation command or use `.aidetect url cancel`. Scores are uncertain indicators, not proof of authorship. |
+| **Preset URL processing** | `.preset <keyword>` searches; supplying a public TikTok URL asks for confirmation before sharing it with the processing service. Use the displayed token to confirm or cancel within two minutes. |
 
-> Changes via `.set` take effect **immediately** — no restart required.
-> The bot falls back through multiple free providers if your endpoint is unavailable.
+Confirmation applies to the request shown in that prompt. These specific consent flows do not mean that every bot command asks before contacting an external service.
 
-**Compatible providers:** OpenAI · Together AI · OpenRouter · Groq · Mistral · Anyscale · Fireworks AI · any `v1/chat/completions`-compatible server
+## Dashboard
 
----
+Open `/dashboard` on the bot's configured web address, or `http://localhost:3028/dashboard` when running locally with the default port. Use the Dashboard Access details sent to the bot's self-chat after setup.
 
-## 🎵🎬 AI Generative Media
+The dashboard provides chat, media and supported account/group controls. Availability depends on the current WhatsApp connection. Keep the dashboard password private; `.resetpass` lets the configured bot owner regenerate it. Check the new access message before attempting to sign in again.
 
-<div align="center">
+## Troubleshooting
 
-BASIL-MD is the **first WhatsApp bot** with built-in AI music composition and AI video generation — no commands needed, just talk naturally.
+| Symptom | Check |
+|:---|:---|
+| Startup reports a missing `index.js` | Set the public deployment start command to `node start.js`; source-checkout npm scripts may target a different entry point. |
+| Pairing code or QR expired | Check Linked Devices and your self-chat first, then request a fresh attempt if needed. |
+| No response to commands | Confirm the WhatsApp connection, prefix, bot mode and the command's permissions. Try `.menu` in an allowed chat. |
+| Media processing fails | Check FFmpeg, optional dependencies, available disk space and whether the source still offers the requested content. |
+| Buttons or a rich card do not display | Client support varies. Use the command's text/reply alternative where offered. |
+| A provider rejects a request | Review the reported error, credentials and service limits; retry later if the provider is unavailable. |
+| Settings disappear after redeployment | Check that the host retains the intended data/session storage across deployments. |
 
-| Feature | How to Trigger | Powered By |
-|:---|:---|:---|
-| 🎵 **AI Music** | _"Create a song about summer vibes"_ | deAPI.ai · Suno · CityFunc · MusicGen |
-| 🎬 **AI Video** | _"Generate a video of a sunset"_ | fal.ai (SVD, WAN 2.5, Fast SVD) |
-| 📝 **TL;DR** | _"What did I miss?"_ or _"recap"_ | Groq (Llama 3.3 70B) |
-| 🖼️ **AI Images** | _"Generate image of a dragon"_ | Flux · DALL-E · Stable Diffusion |
-| 🎤 **AI Voice** | _"Say hello in a voice message"_ | TTS (ttsmp3 · Groq Orpheus) |
+## Support and contributions
 
-> 💡 **No commands required** — the chatbot understands natural language and routes to the right AI automatically.
+- [Project and updates](https://github.com/SAFEME123/BASIL-MD)
+- [Report an issue](https://github.com/SAFEME123/BASIL-MD/issues)
+- [Review or propose a contribution](https://github.com/SAFEME123/BASIL-MD/pulls)
+- [Contributors](https://github.com/SAFEME123/BASIL-MD/graphs/contributors)
 
-</div>
+For a useful bug report, include the command, expected result, actual result, Node.js version, hosting method and a short **redacted** error excerpt. Remove phone numbers, chat content, session IDs, passwords and API keys before posting.
 
----
+## Credits and license
 
-## 👥 Credits
+**DEVSTRIKE TEAM** maintains the BASIL-MD project.
 
-<div align="center">
+| Credit | Contribution |
+|:---|:---|
+| [SAFEME123](https://github.com/SAFEME123) | Lead Developer · Maintainer |
+| [omoba-tife](https://github.com/omoba-tife) | Contributor · Feature Development |
+| [Project contributors](https://github.com/SAFEME123/BASIL-MD/graphs/contributors) | Fixes, ideas and improvements |
+| [Baileys](https://github.com/WhiskeySockets/Baileys) | WhatsApp connectivity library |
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/SAFEME123">
-        <img src="https://github.com/SAFEME123.png" width="80" style="border-radius:50%" /><br/>
-        <sub><b>SAFEME123</b></sub>
-      </a><br/>
-      <sub>Lead Developer · Maintainer</sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/omoba-tife">
-        <img src="https://github.com/omoba-tife.png" width="80" style="border-radius:50%" /><br/>
-        <sub><b>omoba-tife</b></sub>
-      </a><br/>
-      <sub>Contributor · Feature Development</sub>
-    </td>
-  </tr>
-</table>
+Licensed under the [MIT License](LICENSE). Copyright (c) 2025 DEVSTRIKE TEAM. Preserve the license and copyright notice when redistributing the software.
 
-[![Contributors](https://img.shields.io/github/contributors/SAFEME123/BASIL-MD?style=for-the-badge&color=0969da&labelColor=0d1117)](https://github.com/SAFEME123/BASIL-MD/graphs/contributors)
+## Disclaimer
 
-</div>
-
----
-
-## ⚠️ Disclaimer
-
-<div align="center">
-
-<table>
-  <tr>
-    <td>
-
-> **BASIL-MD is an independent open-source project and is NOT affiliated with, endorsed by, or associated with WhatsApp LLC or Meta Platforms, Inc.** WhatsApp is a registered trademark of WhatsApp LLC.
->
-> ### 🚫 Account Ban Risk
-> Using unofficial WhatsApp bots **violates WhatsApp's Terms of Service** and may result in your WhatsApp account being **temporarily or permanently banned**.
-> **You use this software entirely at your own risk.** The developers and contributors accept no liability for any account suspensions, bans, data loss, or any other consequences arising from the use of this bot.
->
-> ### 🛡️ Recommended Settings to Reduce Ban Risk
-> To lower the chance of your account being flagged, it is **strongly advised** to keep the following settings **disabled**:
->
-> | Setting | Recommended Value | Why |
-> |:---|:---:|:---|
-> | `AUTO_READ_STATUS` | `false` | Mass status reading triggers automated-behaviour flags |
-> | `AUTO_STATUS_LIKE` | `off` | Bulk liking statuses is a known ban trigger |
-> | `AUTO_REACT` | `false` | High-frequency reactions can appear bot-like to WhatsApp |
-> | `AUTO_READ_MSG` | `false` | Auto-reading all messages may flag unusual read patterns |
->
-> ℹ️ These features are opt-in and **off by default**. Do not enable them unless you understand the associated risk.
-
-    </td>
-  </tr>
-</table>
-
-</div>
-
----
-
-<div align="center">
-
-![Star History](https://api.star-history.com/svg?repos=SAFEME123/BASIL-MD&type=Date)
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&labelColor=0d1117)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/SAFEME123/BASIL-MD/pulls)
-[![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge&labelColor=0d1117)](https://github.com/SAFEME123/BASIL-MD)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%" />
-
-</div>
+BASIL-MD is an independent project and is not affiliated with or endorsed by WhatsApp LLC or Meta Platforms, Inc. Unofficial WhatsApp automation can violate WhatsApp's terms and may result in account restrictions or suspension. Use the software responsibly, respect consent and content rights, and avoid unsolicited or bulk messaging. The software is supplied without warranty under the MIT License.

@@ -83,24 +83,12 @@ build/
 coverage/
 .nyc_output/
 
-# ===== Secrets & Encrypted Vaults =====
-# Plaintext secrets — NEVER commit
-secrets/secrets.json
-secrets/master.key
-# Encrypted vault blobs — pre-baked on owner's server, not shipped in repo
-assets/api_secrets.enc
-assets/central_db.enc
-# Entire secrets folder hidden from users
+# ===== Private local material =====
 secrets/
-# Encryption/decryption CLI scripts — removed before public release
+assets/*.enc
+lib/vault/
 scripts/encrypt-secrets.mjs
 scripts/decrypt-secrets.mjs
-
-# ===== Crypto Vault Key Parts =====
-# Generated on first run from lib/vault/creators.enc bootstrap.
-# NEVER commit — losing them means re-initialising the vault.
-# creators.enc IS committed (holds BOOTSTRAP: plaintext fallback).
-lib/vault/k*.key
 
 # ===== Bundle Loader =====
 # Marker written after bundle extraction — not for git
@@ -122,6 +110,5 @@ dist/loader.js
 # ===== Kilo (local agent state & config with secrets) =====
 .kilo/
 
-# ===== LagosLife test harness =====
-# Results files contain throwaway test-account credentials — never commit
+# ===== Local test artifacts =====
 data/lagoslife/
