@@ -1,23 +1,44 @@
 <div align="center">
 
-# BASIL-MD
+<img src="docs/readme/hero.gif" width="100%" alt="BASIL-MD — animated signal rings, flowing message paths and a media waveform. Built by DEVSTRIKE." />
 
-**Your WhatsApp toolkit for media, conversation, games and everyday tasks.**
+### Your chat. A little more extraordinary.
 
-**BASIL · DEVSTRIKE TEAM**
+**Music on demand. Worlds to play. Answers that move with you.**
 
-[![Node.js](https://img.shields.io/badge/Node.js-20%2B-43853d?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org)
-[![License](https://img.shields.io/badge/License-MIT-8957e5?style=for-the-badge)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/SAFEME123/BASIL-MD?style=for-the-badge&color=FFD700)](https://github.com/SAFEME123/BASIL-MD/stargazers)
-[![Forks](https://img.shields.io/github/forks/SAFEME123/BASIL-MD?style=for-the-badge&color=0969da)](https://github.com/SAFEME123/BASIL-MD/network/members)
+<a href="https://pair.koyeb.app/"><img src="docs/readme/pair.svg" width="220" alt="Link WhatsApp — get a session" /></a>
+<a href="#hosting"><img src="docs/readme/deploy.svg" width="220" alt="Choose your host — deploy BASIL" /></a>
+<a href="#command-starter"><img src="docs/readme/commands.svg" width="220" alt="Find your next command" /></a>
 
-[Get a session](https://pair.koyeb.app/) · [Quick start](#quick-start) · [Commands](#command-starter) · [Hosting](#hosting) · [Support](#support-and-contributions)
+<br/>
+
+[![Node.js](https://img.shields.io/badge/NODE-20%2B-c8f56b?style=flat-square&labelColor=101a24)](https://nodejs.org)
+[![License](https://img.shields.io/badge/LICENSE-MIT-71ddd0?style=flat-square&labelColor=101a24)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/SAFEME123/BASIL-MD?style=flat-square&color=c8f56b&labelColor=101a24&label=STARS)](https://github.com/SAFEME123/BASIL-MD/stargazers)
+[![Forks](https://img.shields.io/github/forks/SAFEME123/BASIL-MD?style=flat-square&color=71ddd0&labelColor=101a24&label=FORKS)](https://github.com/SAFEME123/BASIL-MD/network/members)
+
+[Quick start](#quick-start) &nbsp; / &nbsp; [The toolkit](#explore-basil) &nbsp; / &nbsp; [Pocket Arcade](#pocket-arcade-and-weather-cards) &nbsp; / &nbsp; [Support](#support-and-contributions)
+
+<sub>Original BASIL artwork · decorative animation, not live telemetry · <a href="docs/readme/hero-poster.png">view the still banner</a></sub>
 
 </div>
 
-> **Official active mirror:** [SAFEME123/BASIL-MD](https://github.com/SAFEME123/BASIL-MD). The original `BOTMASTER350/BASIL-MD` account is currently unavailable; use the active mirror for updates.
+<br/>
 
-BASIL-MD combines familiar WhatsApp messages with media downloads, AI-assisted conversation, interactive games, weather forecasts and group tools. Browse with `.menu`, choose the feature you need, and follow its reply or button prompts.
+## More than a command list.
+
+<img src="docs/readme/features.svg" width="100%" alt="Conversation: chat, commands and group tools. Media studio: music, video and stickers. Play time: games and challenges." />
+
+BASIL brings your music, games and everyday tools into the place you already talk. Queue a song, open a pocket-sized arcade, check tomorrow's weather or ask a better question—then get back to the conversation.
+
+> **Start with `.menu`.** Explore what your installation supports, or jump straight to `.song`, `.gamesmenu`, `.weather` and `.ai`.
+
+<details>
+<summary><strong>Official project & mirror</strong></summary>
+
+Use [SAFEME123/BASIL-MD](https://github.com/SAFEME123/BASIL-MD) for updates. The original `BOTMASTER350/BASIL-MD` account is currently unavailable.
+
+</details>
 
 ## Explore BASIL
 
